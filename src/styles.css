@@ -1,0 +1,107 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: Prometo-Bold  ;
+    src: url(assets/styles/Fonts/Prometo-W04-Bold-Italic.ttf);
+}
+@font-face {
+    font-family: Prometo-XBold  ;
+    src: url(assets/styles/Fonts/Prometo-W04-XBold-Italic.ttf);
+}
+@font-face {
+    font-family: Prometo-Light  ;
+    src: url(assets/styles/Fonts/Prometo-W04-Light-Italic.ttf);
+}
+@font-face {
+    font-family: Prometo-Italic;
+    src: url(assets/styles/Fonts/Prometo-W04-Italic.ttf);
+}
+@font-face {
+    font-family: Prometo-Black;
+    src: url(assets/styles/Fonts/Prometo-W04-Black-Italic.ttf);
+}
+@font-face {
+    font-family: Prometo-Thin;
+    src: url(assets/styles/Fonts/Prometo-W04-Thin-Italic.ttf);
+}
+@font-face {
+    font-family: Prometo-Medium;
+    src: url(assets/styles/Fonts/Medium.ttf);
+}
+
+.modal{
+    min-width: 98vw !important;
+    min-height:90vh !important;
+   
+}
+.modal.show .modal-dialog{
+    min-width: 98vw !important;
+    height:90vh !important;
+   
+   
+}
+.modal-body{
+    width:98vw; 
+    height:96vh;
+    background: transparent;
+    border: none;
+}
+.modal-content{
+    width:98vw !important;
+    height:96vh !important;
+    background: transparent;
+    border: none;
+}
+.alert{
+    width: 40%;
+    height:20%;
+    top:30%;
+    left:30%;
+    position: absolute;
+    background-image: url(assets/score/popup-frame.png);
+    background-size:  100% 100%;
+    display:grid
+  }
+  .alert p{
+    text-align: center;
+    color:#fff;
+    font-family:Prometo-Bold;
+    margin-top:2.5%
+  }
+  .alert button{
+    display:flex;
+    align-self: center;
+    justify-self: center;
+    font-family:Prometo-Bold;
+
+  }   
+   .alert .btn-div{
+    display:flex;
+    justify-content: space-around;
+    
+    
+ }
+ body::-webkit-scrollbar{
+    display: none !important;
+ }
+ .final-box img{
+    border-radius: 50px;
+ }
+
+  @media (min-width:250px) and (max-width:950px){
+    .alert{
+        height:35vh;
+        top:25%
+    }
+    .alert button{
+        margin-left:0%;
+        bottom:2%;
+        
+    }
+     .p{
+        margin-right: 22%;
+     }
+  }
+
+  body p{
+    cursor:default;
+  }

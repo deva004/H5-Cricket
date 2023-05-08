@@ -1,0 +1,166 @@
+.cricket-player-profile-name {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.cricket-profile-name {
+  background-image: url(../images/login/email.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 38px;
+  width: 100%;
+  margin: 10px 0 0;
+}
+.newFile {
+  display: none;
+}
+.tournament-head-choose h2 {
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+  position: relative;
+  font-weight: 700;
+  font-style: italic;
+  -webkit-text-stroke: 0.5px #000;
+  z-index: 999999999999;
+  text-align: center;
+  font-family: "Calibri" !important;
+}
+.cricket-profile-batting {
+  width: 30%;
+  float: left;
+  padding: 20px 10px 0;
+  height: 90%;
+}
+.cricket-profile-all-rounder {
+  width: 40%;
+  float: left;
+  padding: 3px 15px;
+  height: 100%;
+}
+.cricket-profile-bowling {
+  height: 90%;
+}
+.cricket-profile-email {
+  overflow: hidden;
+  clear: both;
+}
+.cricket-profile-padding-bottom {
+  padding-bottom: 20px;
+}
+.cricket-all-rounder-details {
+  overflow: hidden;
+  height: 30%;
+}
+.cricket-profile-batting-bg {
+  width: 100%;
+  background-image: url(../images/profile/batting-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+}
+.cricket-profile-all-rounder-bg {
+  width: 100%;
+  background-image: url(../images/profile/all-rounder.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+}
+.cricket-profile-bowling-bg {
+  width: 100%;
+  background-image: url(../images/profile/batting-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+}
+.cricket-profile-all-rounder-btn button {
+  background-image: url(../images/profile/batting-btn.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 80%;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 0;
+  padding: 3px 0;
+  text-transform: uppercase;
+  font-family: "Microsoft New Tai Lue";
+  text-shadow: 2px 0 0 #793d05, -2px 0 0 #793d05, 0 2px 0 #793d05,
+    0 -2px 0 #793d05, 1px 1px #793d05, -1px -1px 0 #793d05, 1px -1px 0 #793d05,
+    -1px 1px 0 #793d05;
+}
+.cricket-all-rounder-title {
+  background-image: url(../images/profile/batting-title.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 14%;
+  width: 105%;
+  position: relative;
+  left: -3px;
+  top: 6px;
+}
+.cricket-all-rounder-title h2 {
+  text-align: center;
+  color: #292e33;
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0;
+  /*text-shadow: 0px 4px 4px rgba(229, 233, 240, 0.95);*/
+  font-family: "Microsoft New Tai Lue";
+  text-shadow: 0px 1px 1px rgba(67, 73, 84, 0.95);
+  line-height: 20px;
+}
+.cricket-all-rounder-bb {
+  width: 50%;
+  margin: 0 auto;
+  padding: 16% 0 11% 0;
+}
+.cricket-bowling-icon {
+  width: 60%;
+}
+
+/*******type**************/
+.cricket-profile-type {
+  overflow: hidden;
+  background-image: url(../images/profile/all-rounder-bg-select.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 85%;
+  margin: 0 auto;
+  height: 17vh;
+  /*height: */
+  /*padding: 14% 0;*/
+}
+.cricket-all-rounder-type {
+  padding: 10% 0 0 0 !important;
+}
+.cricket-right-batting {
+  margin: 0 0 5px 0;
+}
+.cricket-right-batting button {
+  background-color: #37393e;
+  font-size: 12px;
+  font-weight: 700;
+  color: #707379;
+  border: none;
+  border-radius: 0;
+  font-family: "Microsoft New Tai Lue";
+}
+.cricket-right-batting button:hover {
+  color: #fff;
+  background-color: #0c57b8;
+}
+.cricket-check-mark .fa-check {
+  display: inline-block;
+}
+.cricket-check-mark {
+  display: none;
+  color: #fff;
+  padding: 0 3px 0 0;
+}
+.cricket-right-batting button:hover .cricket-check-mark {
+  display: inline-block;
+}
+.added-padding {
+  padding: 6px 16px !important;
+}

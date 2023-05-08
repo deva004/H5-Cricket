@@ -1,0 +1,110 @@
+.cricket-gaming-register-section{
+  padding: 5% 0 0;
+}
+.cricket-register-username{
+  margin: 0 0 10px;
+  height: 10%;
+}
+.cricket-gaming-register-board{
+  height: 65%;
+    top: 23%;
+}
+.input-icon-user{
+  background-color: transparent;
+  background-image: url(../images/login/user.png);
+          background-size: 14% 100%;
+    /* background-position: 7px 7px; */
+     background-repeat: no-repeat; 
+    width: 80%;
+    border: none;
+    height: 84%;
+    outline: none;
+    margin: 3px 0 0 8%;
+    color: #fff;
+   text-align: center;
+}
+.input-icon-user::-webkit-input-placeholder {
+   text-align: center;
+   color: #fff;
+   /*font-size: 16px;*/
+   font-weight: 700;
+}
+
+.input-icon-user::-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+   color: #fff;
+   /*font-size: 16px;*/
+   font-weight: 700;  
+}
+
+.input-icon-user::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+   color: #fff;
+   /*font-size: 16px;*/
+   font-weight: 700;  
+}
+
+.input-icon-user::-ms-input-placeholder {  
+   text-align: center;
+   color: #fff;
+   /*font-size: 16px;*/
+   font-weight: 700; 
+}
+.cricket-register-username .input-icon-mail{
+      background-size: 17% 100%;
+}
+.input-icon-bonus{
+  background-color: transparent;
+  background-image: url(../images/login/refer-bonus.png);
+    background-size: 14% 96%;
+    /* background-position: 7px 7px; */
+    background-repeat: no-repeat;
+    width: 80%;
+    border: none;
+    height: 84%;
+    outline: none;
+    margin: 3px 0 0 10%;
+  text-align: center;
+   color: #fff;
+}
+.input-icon-bonus::-webkit-input-placeholder {
+   text-align: center;
+   color: #e6cb73;
+   /*font-size: 16px;*/
+   font-weight: 700;
+}
+
+.input-icon-bonus::-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+   color: #e6cb73;
+   /*font-size: 16px;*/
+   font-weight: 700;  
+}
+
+.input-icon-bonus::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+   color: #e6cb73;
+   /*font-size: 16px;*/
+   font-weight: 700;  
+}
+
+.input-icon-bonus::-ms-input-placeholder {  
+   text-align: center;
+   color: #e6cb73;
+   /*font-size: 16px;*/
+   font-weight: 700; 
+}
+.cricket-gaming-register-button button{
+  background-color: transparent;
+  background-image: url(../images/login/register-btn.png);
+  background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    border-radius: 0;
+    padding: 12px 50px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 0px 0px transparent;
+    outline: none;
+}

@@ -1,0 +1,57 @@
+.cricket-shop-details{
+	overflow: hidden;
+	padding: 15px 15px;
+}
+.cricket-shop-card-pack{
+	background-image: url(../images/custom.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40px;
+    width: 85%;
+    margin: 0 auto 15px;
+}
+.cricket-shop-card-pack h2{
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	margin:0;
+	font-style: italic;
+	line-height: 40px;
+	text-shadow: 0px 0px 7px rgba(14, 80, 148, 0.9);
+}
+.cricket-shop-inline-table{
+	display: inline-table !important;
+}
+.cricket-shop-inline-table:hover{
+    border: 2px solid #a5f8ff;
+    border-radius: 4px;
+    padding: 3px;
+    background: #0ce3f9;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(67,139,228,1);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(67,139,228,1);
+    box-shadow: 0px 0px 30px 0px rgba(67,139,228,1);
+}
+.no-effects:hover{
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    background: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.cricket-shop{
+	margin-top: 4px;
+}
+.cricket-shop button{
+	background-image: url(../images/myDeck-btn.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    width: 100%;
+    border:none;
+    outline: none;
+    padding: 5px 0;
+    font-weight: 700;
+}

@@ -1,0 +1,820 @@
+.container {
+    min-width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(../../../assets/BG.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+body p {
+    font-family: Prometo-Bold;
+}
+
+.clickable {}
+
+.top-ui {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.win-shade-bg {
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.loss-shade-bg {
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+#four-runs {
+    margin-top: 10%;
+    position: relative;
+    z-index: 100;
+    flex-direction: column;
+    align-items: center;
+    height: 30% !important;
+
+}
+
+#two-runs {
+    margin-top: 20%;
+    position: relative;
+    z-index: 100;
+    flex-direction: column;
+    align-items: center;
+    height: 30% !important;
+}
+
+#missed {
+    position: relative;
+    z-index: 100;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#text-animation {
+    animation-name: slide-in-left;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.pointer {
+    position: absolute;
+    width: 10vh;
+    height: auto;
+    animation-name: pointer-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+.starting-card-img {
+    width: 75%;
+    height: auto;
+    margin-top: 15%;
+    background: -webkit-linear-gradient(#FFFFFF 0%, #d3dbde 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Prometo-Bold';
+    text-transform: uppercase;
+    font-size: calc(2*(1.1vh + 1.1vw));
+    text-align: center;
+}
+
+.win-msg {
+    height: auto;
+    margin-top: -5%;
+    margin-left: 12%;
+    min-width: 100%;
+    background: -webkit-linear-gradient(#FFFFFF 0%, #71AABC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Prometo-Bold';
+    text-transform: uppercase;
+    font-size: calc(2*(1.1vh + 1.1vw));
+}
+
+.bowling-card {
+    animation-name: slide-in-top;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.bowling-card-img {
+    height: 40.5%;
+    width: auto;
+}
+
+.choose-img {
+    width: 60%;
+    height: auto;
+}
+
+.choose-card {
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.batting-card-img {
+
+    animation-name: select-option;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.select-option {
+
+    animation-name: select-option-fb;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    width: 20%;
+}
+
+.p {
+    align-self: center;
+    justify-self: center;
+    position: absolute;
+    font-size: calc(1*(1.1vh + 1.5vw));
+
+    font-family: 'Prometo-Bold';
+}
+
+.animated-height {
+    height: 40vh;
+    animation-name: slide-in-bottom;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+.oppocard-play-animation {
+    animation-name: oppocard-play;
+    animation-delay: 1.5s;
+    animation-duration: 2s
+}
+
+.oppocard-play-animation1 {
+    animation-name: oppocard-play1;
+    animation-delay: 1.5s;
+    animation-duration: 1s
+}
+
+.arrow {
+    height: 8vh;
+    width: auto;
+    animation-name: arrow-move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.arrow-height {
+    height: 13vh;
+}
+
+.starting-card-img {
+    animation-name: slide-out;
+    animation-delay: 1s;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+.cut-play-animation {
+    animation-name: cut-play;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    width: 14vw !important;
+}
+
+.leg-glance-play-animation {
+    animation-name: leg-glance-play;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    width: 14vw !important
+}
+
+.reverse-swing-play-animation {
+    animation-name: reverse-swing-play;
+    animation-delay: 1s;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    width: 14vw !important
+}
+
+.remove-card-animation {
+    animation-name: remove-card;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+.final-box {
+    width: 90%;
+    margin: 0 auto;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 60%;
+    position: absolute;
+    top: 14%;
+    text-align: center;
+}
+
+.final-box>img {
+    width: 100%;
+    height: auto;
+}
+
+.final-box>p {
+    font-family: Prometo-Bold;
+    font-size: calc(2*(1.1vh + 1.5vw));
+    width: 100%;
+    height: auto;
+    color: #fff;
+    background: -webkit-linear-gradient(#FFFFFF 0%, #71AABC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-bottom {
+    from {
+        opacity: 0;
+        margin-bottom: -10vh;
+    }
+
+    to {
+        opacity: 1;
+        margin-bottom: 0vh;
+    }
+}
+
+
+@keyframes slide-out {
+    0% {
+        opacity: 1;
+        margin-top: 15%;
+    }
+
+    70% {
+        opacity: 1;
+        margin-top: 15%;
+    }
+
+    100% {
+        opacity: 0;
+        margin-top: 22.5%;
+        display: none !important;
+    }
+}
+
+@keyframes slide-in-top {
+    0% {
+        opacity: 0;
+        margin-top: -10vh;
+    }
+
+    30% {
+        opacity: 1;
+        margin-top: 0vh;
+    }
+}
+
+@keyframes select-option {
+    0% {
+        width: 80%;
+        height: 70%;
+    }
+
+    50% {
+        width: 85%;
+        height: 75%;
+    }
+
+    100% {
+        width: 80%;
+        height: 70%;
+    }
+}
+
+@keyframes select-option-fb {
+    0% {
+        width: 75%;
+        height: auto;
+    }
+
+    50% {
+        width: 80%;
+        height: auto;
+    }
+
+    100% {
+        width: 75%;
+        height: auto;
+    }
+}
+
+@keyframes arrow-move {
+    0% {
+        margin-top: 0vh;
+    }
+
+    50% {
+        margin-top: 5vh;
+    }
+
+    100% {
+        margin-top: 0vh;
+    }
+}
+
+@keyframes pointer-animation {
+    0% {
+        top: 72%;
+        left: 62%;
+    }
+
+    50% {
+        top: 72%;
+        left: 87%;
+    }
+
+    100% {
+        top: 72%;
+        left: 62%;
+    }
+}
+
+@keyframes remove-card {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        position: absolute;
+        bottom: 100%;
+    }
+}
+
+@keyframes cut-play {
+    0% {
+        position: absolute;
+        bottom: 20%;
+        right: 15%;
+        height: 40.5%;
+    }
+
+    50% {
+        position: absolute;
+        bottom: 30%;
+        right: 15%;
+        height: 40.5%;
+
+    }
+
+    100% {
+        position: absolute;
+        transform: translate(0, -10%);
+        right: 38%;
+        height: 40.5%;
+
+    }
+}
+
+@keyframes leg-glance-play {
+    0% {
+        position: absolute;
+        bottom: 20%;
+        right: 15%;
+        height: 40.5%;
+    }
+
+    50% {
+        position: absolute;
+        bottom: 30%;
+        right: 15%;
+        height: 40.5%;
+
+    }
+
+    100% {
+        position: absolute;
+        transform: translate(0, -10%);
+        right: 38%;
+        height: 40.5%;
+
+    }
+}
+
+/* oppo card*/
+
+@keyframes oppocard-play {
+    0% {
+        opacity: 1;
+        margin-bottom: 0vh;
+    }
+
+    50% {
+        opacity: 1;
+        margin-bottom: 0vh;
+        margin-left: 15%;
+
+    }
+
+    80% {
+        opacity: 1;
+        margin-bottom: 0vh;
+        margin-left: 25%;
+    }
+
+    100% {
+        opacity: 1;
+        margin-bottom: 0vh;
+        margin-left: 25%;
+    }
+}
+
+@keyframes oppocard-play1 {
+
+    80% {
+        margin-left: 20%;
+    }
+
+    100% {
+        margin-left: 20%;
+    }
+
+}
+
+@keyframes reverse-swing-play {
+    0% {
+        position: absolute;
+        bottom: 20%;
+        right: 15%;
+        height: 40.5%;
+    }
+
+    50% {
+        position: absolute;
+        bottom: 30%;
+        right: 15%;
+        height: 40.5%;
+
+    }
+
+    100% {
+        position: absolute;
+        transform: translate(0, -10%);
+        right: 38%;
+        height: 40.5%;
+
+    }
+}
+
+@keyframes slide-in-left {
+    0% {
+        margin-right: 100vw;
+    }
+
+    25% {
+        margin-right: 0;
+    }
+}
+
+/*-----------------------header-----------------------------*/
+.gameplay-header>* {
+    position: absolute;
+    margin-bottom: 30%;
+}
+
+p {
+    margin: 0;
+    width: fit-content;
+}
+
+.gameplay-header>.player-score-div {
+    width: 40%;
+    position: absolute;
+}
+
+.match-status {
+    z-index: 20;
+    position: absolute;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.silver {
+    width: 30%;
+}
+
+.score {
+    z-index: 20;
+    font-size: calc(2*(1.5vw));
+    font-family: Prometo-Bold;
+    max-width: 20px;
+}
+
+.runs-per-ball {
+    margin-top: 7%;
+    width: 24%;
+    justify-content: space-around;
+}
+
+.ball {
+    position: relative;
+    text-align: center;
+    width: 15%;
+    height: 15%;
+}
+
+.ball>img {
+    height: 100%;
+    width: 100%;
+}
+
+.score-text {
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.opponent-avatar,
+.player-avatar {
+    position: absolute;
+    transform: translate(-50%, 0);
+    width: 13%;
+    height: auto;
+}
+
+.opponent-avatar {
+    left: 25%;
+    transform: translate(-70%, 35%);
+}
+
+.player-avatar {
+    left: 75%;
+    transform: translate(-30%, 35%);
+}
+
+.you {
+    width: 18%;
+    margin-top: 14.5%;
+    margin-left: 43%;
+    position: absolute;
+}
+
+.you-p {
+    position: absolute;
+    font-size: calc(.8*(1.5vw));
+    margin-top: 14.6%;
+    margin-left: 54%;
+    font-family: 'Prometo-Bold';
+    color: #ffff;
+}
+
+.opponent {
+    width: 18%;
+    margin-top: 14.4%;
+    margin-left: -43%;
+    position: absolute;
+
+}
+
+.opponent-p {
+    font-family: 'Prometo-Bold';
+    color: #ffff;
+    margin-top: 14.4%;
+    margin-left: -51%;
+    position: absolute;
+    font-size: calc(.8*(1.5vw));
+}
+
+.yourCard {
+    width: 16%;
+    margin-top: 20%;
+    margin-left: 38.4%;
+    position: absolute;
+}
+
+.yourCard-p {
+    position: absolute;
+    font-size: calc(.8*(1.5vw));
+    margin-top: 20.3%;
+    margin-left: 40%;
+    font-family: 'Prometo-Bold';
+    ;
+    color: #002140;
+}
+
+.opponent-card {
+    width: 16%;
+    margin-top: 20%;
+    margin-left: -38%;
+    position: absolute;
+}
+
+.opponentCard-p {
+    font-family: 'Prometo-Bold';
+    color: #002140;
+    margin-top: 20.3%;
+    margin-left: -40%;
+    position: absolute;
+    font-size: calc(.8*(1.5vw));
+}
+
+.cardIcon {
+    margin-top: 20%;
+    margin-left: -28%;
+    position: absolute;
+    z-index: 1;
+    width: 2%;
+}
+
+.cardIcon1 {
+    margin-top: 20.3%;
+    margin-left: 27.5%;
+    position: absolute;
+    width: 2%;
+}
+
+.DeckLeft {
+    top: 1%;
+    left: 5%;
+    width: 10%;
+    position: absolute
+}
+
+.DeckRight {
+    top: 1%;
+    left: 85%;
+    width: 10%;
+    position: absolute
+}
+
+@media (min-width:750px) {
+    .score {
+        z-index: 20;
+        font-size: calc(2*(1.5vw));
+        font-family: Prometo-Bold;
+    }
+
+    .status-overs {
+
+        font-size: 15px;
+    }
+
+    .score.user-score {
+        margin-right: 5%;
+    }
+
+    .status-innings {
+
+        font-size: 20px;
+        line-height: 1;
+    }
+
+}
+
+@media (min-width:1025px) {
+    .score {
+        z-index: 20;
+        font-size: calc(2*(1.5vw));
+        font-family: Prometo-Bold;
+    }
+
+    .score.user-score {
+        margin-right: 5%;
+    }
+
+    .status-overs {
+        font-size: 20px;
+    }
+
+    .status-innings {
+
+        font-size: 25px;
+        line-height: 1;
+    }
+
+}
+
+@media (min-width:1281px) {
+    .score {
+        z-index: 20;
+        font-size: 40px;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .score.user-score {
+        margin-right: 6%;
+        margin-top: 2%;
+    }
+
+    .score.opponent-score {
+        margin-left: -2.5%;
+        margin-top: 2%;
+    }
+
+    .status-overs {
+        font-size: 25px;
+    }
+
+    .status-innings {
+
+        font-size: 28px;
+        line-height: 1;
+    }
+}
+
+@media (min-width:350px) and (max-width:950px) {
+    .score-text {
+        font-size: calc(1*(1.5vw));
+    }
+
+    .select-option {
+
+        animation-name: select-option-fb1;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        width: 20%;
+    }
+
+    @keyframes select-option-fb1 {
+        0% {
+            width: 60%;
+            height: auto;
+        }
+
+        50% {
+            width: 65%;
+            height: auto;
+        }
+
+        100% {
+            width: 60%;
+            height: auto;
+        }
+    }
+}
+
+.choose-a-card {
+    margin-top: 30vh !important;
+}
+
+.animated-height {
+    max-height: fit-content;
+    margin-bottom: 5% !important;
+    background-image: url(../../../assets/PickCard_Box.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.batting-card-img {
+    margin-top: 20% !important;
+    height: 100%;
+}
+
+.bowling-card-img {
+
+    width: 22.5%;
+}
+
+.back {
+    background-image: none;
+}

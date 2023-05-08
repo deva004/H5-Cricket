@@ -1,0 +1,211 @@
+::-webkit-scrollbar {
+  display: none;
+  width: 0px;
+}
+
+.main-menu-desktop {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../../assets/images/Home/HomeScreen_NewLockedStates/NewBG.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* padding: 7% 12% 7% 12%;*/
+}
+
+.container {
+  min-width: 99vw;
+  min-height: 70%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0%, 20%);
+}
+
+.div1 {
+  display: inline-block;
+  position: relative;
+  width: 25%;
+  min-height: 70vh;
+
+
+}
+
+.div2 {
+  display: inline-block;
+  position: relative;
+  width: 25%;
+  min-height: 70vh;
+}
+
+.div3 {
+
+  position: relative;
+  width: 25%;
+  min-height: 70vh;
+  max-height: 70vh;
+
+}
+
+.BG-Card {
+  display: flex;
+  position: absolute;
+  width: 96%;
+  border: none;
+  height: 70vh;
+}
+
+.Icon {
+  display: flex;
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 17%;
+  max-width: 60%;
+  height: 40%;
+}
+
+.text {
+  display: flex;
+  position: absolute;
+  min-width: 95%;
+  height: 30%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: Prometo-Italic;
+  font-size: calc(.7 * (1.5vh + 1.1vw));
+  transform: translate(0%, 180%);
+  margin-top: 10%;
+
+}
+
+
+
+.tittle {
+  position: absolute;
+  font-size: calc(1.4 * (1.5vh + 1.1vw));
+  font-family: Prometo-Bold;
+  letter-spacing: 0px;
+  color: #002140;
+  text-shadow: 0px .1px 0px #DAE1E7;
+  text-transform: uppercase;
+  opacity: 1;
+  width: 90%;
+  justify-self: center;
+  padding-bottom: 30%;
+}
+
+.p {
+  margin-top: 10%;
+  max-width: 55%;
+}
+
+.div3sub {
+
+  min-width: 100%;
+  min-height: 22.2vh;
+  max-height: 22.2vh;
+  margin-bottom: 4%;
+  transform: translate(0%, 0%);
+}
+
+.Icon3 {
+  display: flex;
+  position: absolute;
+  margin-left: 3.5%;
+  max-width: 35%;
+  height: 20%;
+  transform: translate(2%, -135%);
+
+}
+
+.Lock {
+  opacity: 1 !important;
+  z-index: 1;
+  margin-top: -35vh;
+  width: 50%;
+}
+
+.play {
+  bottom: 0%;
+  position: absolute;
+  display: flex;
+  max-width: 90%;
+
+}
+
+.play img {
+  height: 90%;
+  width: 100%;
+  margin-left: 2.5%;
+}
+
+
+.play-text {
+  display: flex;
+  font-family: 'Prometo-Bold';
+  font-size: calc(1.5*(1.5vw));
+  position: absolute;
+  margin: 2%;
+  margin-left: 20%;
+}
+
+.play-text img {
+  max-width: 30%;
+  max-height: 75%;
+}
+
+.play-text span {
+  margin-left: 20%
+}
+
+.tittle-3 {
+  display: flex;
+  position: absolute;
+  margin-left: 33%;
+  max-width: fit-content;
+  height: 20%;
+  font-size: calc(1.2 * (1.5vh + 1.1vw));
+  font-family: Prometo-Bold;
+  color: #FFFFFF;
+  text-shadow: 0px 10px 20px #00000033;
+  text-transform: uppercase;
+  opacity: 1;
+  transform: translate(20%, -115%);
+
+}
+
+.left {
+  margin-left: 35%;
+}
+
+.top {
+  margin-top: -6%;
+}
+
+.p-3 {
+  display: flex;
+  position: absolute;
+  margin-left: 27%;
+  width: 45%;
+  height: 20%;
+  font-family: Prometo-Italic;
+  font-size: calc(.6 * (1.5vh + 1.1vw));
+  transform: translate(20%, -100%);
+  color: #fff;
+  opacity: 0.7;
+
+}
+
+.mt {
+  margin-top: 40%;
+}
+
+@media (min-width:350px) and (max-width:950px) {
+
+  .p-3 {
+    margin-top: -3%;
+    margin-left: 20%;
+    width: 58%;
+  }
+}

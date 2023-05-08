@@ -1,0 +1,285 @@
+.cricket-win-match-bg{
+	background-image: url(../images/youwin/bg-win.jpg) !important;
+}
+.cricket-focus-light{
+	width: 30%;
+    position: absolute;
+    top: -12px;
+    z-index: 999;
+}
+.cricket-you-win-bg{
+	background-image: url(../images/invites-popup.png);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 75%;
+    width: 98%;
+    margin: 0 auto;
+    position: relative;
+    top: 16%;
+}
+
+.cricket-win-header{
+	background-image: url(../images/youwin/win-header.png);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 8%;
+    width: 98%;
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+
+}
+.cricket-win-header h2{
+	margin: 0;
+	font-size: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	line-height: 28px;
+    position: relative;
+    z-index: 99999;
+	text-shadow: 0px 0px 15px rgba(51, 142, 243, 0.95);
+	font-family: 'Calibri';
+	font-style: italic;
+}
+.close-btn{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.close-btn button{
+	background-color: transparent;
+    background-image: url(../images/refer/refer-close.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 17px;
+    border: none;
+    border-radius: 0;
+}
+.cricket-win-content{
+	overflow: hidden;
+}
+.cricket-player-one{
+	background-image: url(../images/login/email.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 75%;
+    margin: 15px auto 0;
+    height: 30px;
+}
+.cricket-player-name-one h2{
+	margin: 0;
+	font-size: 17px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 26px;
+    padding: 0 0 0 18px;
+    text-shadow: 0px 0px 15px rgba(51, 142, 243, 0.95);
+	font-family: 'Calibri';
+	font-style: italic;
+}
+.cricket-player-score-one h2{
+	margin: 0;
+	font-size: 17px;
+	font-weight: 700;
+	color: #ffe699;
+	line-height: 26px;
+    padding: 0 15px 0 0;
+    text-align: right;
+    text-shadow: 0px 0px 15px rgba(51, 142, 243, 0.95);
+	font-family: 'Calibri';
+	font-style: italic;
+}
+.cricket-rewards-details{
+	background-image: url(../images/youwin/rewards.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    margin: 15px auto 0;
+    height: 15px;
+}
+.cricket-coin-card-star{
+	width: 75%;
+    margin: 10px auto 0;
+    overflow: hidden;
+}
+.cricket-coin-rewards{
+	width: 30%;
+	float: left;
+}
+.cricket-coin-count{
+	width: 70%;
+	float: left;
+}
+.cricket-coin-count h4{
+	margin: 0;
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	padding: 0 0 0 4px;
+	font-family: 'Calibri';
+	text-shadow: 0px 0px 15px rgba(51, 142, 243, 0.95);
+	line-height: 20px;
+}
+.cricket-coin-rewards img{
+	text-shadow: 0px 0px 15px rgba(51, 142, 243, 0.95);
+	
+}
+.cricket-45-percent{
+	width: 45%;
+}
+.cricket-55-percent{
+	width: 55%;
+}
+.cricket-key-moment{
+	background-image: url(../images/youwin/score-board.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 40px;
+    margin-top: 8px;
+}
+.padding-resizing{
+	padding: 3px 5px !important;
+}
+.cricket-key-mm-bat h2{
+	margin: 0;
+	font-size: 10px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 37px;
+	text-shadow: 0px 0px 15px rgba(4, 4, 4, 0.95);
+}
+.cricket-upper-cut h2{
+	color: #2c3340;
+	margin: 0;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 37px;
+	text-shadow: 2px 0 0 #d1d8e5, -2px 0 0 #d1d8e5, 0 2px 0 #d1d8e5, 0 -2px 0 #d1d8e5, 1px 1px #d1d8e5, -1px -1px 0 #d1d8e5, 1px -1px 0 #d1d8e5, -1px 1px 0 #d1d8e5;
+}
+.cricket-buy-cards{
+	width: 80%;
+	margin: 0 auto;
+}
+.cricket-height-100-cards{
+	height: 100px;
+}
+.cricket-height-120-cards{
+	height: 120px;
+}
+.cricket-width-28-percent{
+	width: 28% !important;
+	top: -10px;
+}
+.cricket-width-35-percent{
+	width: 35% !important;
+	margin-top: 10px;
+}
+.cricket-vs-effect-image{
+	width: 100%;
+	overflow: hidden;
+    clear: both;
+    display: inline-block;
+    position: relative;
+    top: 25px;
+}
+.cricket-vs-effect{
+	background-image: url(../images/youwin/vs-effect.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 90px;
+    width: 65%;
+    margin: 0 auto;
+}
+.cricket-vs-effect h2{
+	/*text-align: center;*/
+    line-height: 120px;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    -webkit-text-stroke: 1px black;
+    /*padding: 0 30px 0 0;*/
+    background: linear-gradient( #f1c28c 0%, #d66f23 25%, #902718 50%, #a01a1f 75%, #7d0307 100%);
+    background: -webkit-linear-gradient( #f1c28c 0%, #d66f23 25%, #902718 50%, #a01a1f 75%, #7d0307 100%);
+   	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.cricket-margin-right-remove{
+	margin-right: 0;
+}
+.cricket-you-win-contiune-button{
+	width: 29%;
+	position: fixed;
+	margin-top: 13px;
+}
+.cricket-you-win-contiune-button button{
+	background-color: transparent;
+	background-image: url(../images/login/register-btn.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Microsoft New Tai Lue' !important;
+    outline: none;
+}
+.cricket-you-win-contiune-button button:hover{
+	color: #fff;
+}
+.cricket-display-table-inline button{
+	background-color: transparent;
+	background-image: url(../images/youwin/buy-btn.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    border-radius: 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Microsoft New Tai Lue' !important;
+    outline: none;	
+    width: 80%;
+    margin: 0 10%;
+}
+.cricket-ball-images{
+	background-image: url(../images/youwin/ball.png);
+    background-repeat: no-repeat;
+    background-size: 74% 97%;
+	height: 31px;
+	float: right;
+}
+.cricket-ball-images h3{
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 28px;
+}
+.cricket-win-effects{
+	position: absolute;
+	top: 16px;
+}
+.cricket-summary-home button{
+	background-color: transparent;
+	border-color: transparent;
+	background-image: url(../images/myDeck-btn.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    font-weight: 700;
+}
+
+.cricket-summary-playAgain button{
+	background-color: transparent;
+	border-color: transparent;
+	background-image: url(../images/continue.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+        color: #fff;
+    font-weight: 700;
+}

@@ -1,0 +1,31 @@
+<header class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming-header">
+  <div class="cricket-fixed-header-desktop">
+    <div class="user-details">
+      <img [src]="'./assets/images/Home/'+userImg+'.png'" alt="" class="user-icon">
+      <div class="user-name">
+        <p>{{userName}}</p>
+      </div>
+    </div>
+    <div class="level">
+      <img src="assets/Exit.png">
+      <p>Level:{{Level}}</p>
+    </div>
+    <div class="currency">
+
+      <!--  <div class="star-coin">
+            <img class="coin-icon" src="./assets/images/Home/StarCoin.png" alt="">
+            <p class="p-0 m-0 coins-value">{{Starcoin}}</p> -->
+      <!--  <img class="plus-icon" src="./assets/images/Home/PlusCurrency.png" alt="">
+        </div> -->
+      <div style="justify-content: flex-start;" class="star-coin">
+        <img class="coin-icon" src="./assets/images/Home/Coin.png" alt="">
+        <p class="p-0 m-0 coins-value">{{Coin}}</p>
+        <!--  <img class="plus-icon" src="./assets/images/Home/PlusCurrency.png" alt="">-->
+      </div>
+      <div class="option">
+        <img data-bs-toggle="modal" data-bs-target="#Hint" src="./assets/images/Home/Help.png" alt="" class="help ">
+        <!--  <img src="./assets/images/Home/Settings.png" alt="" class="settings ">-->
+      </div>
+    </div>
+  </div>
+</header>

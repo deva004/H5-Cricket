@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="content">
+
+        <div class="d-img">
+            <img *ngIf="selectedImg!=undefined" class="main-img" [src]="'./assets/images/Home/'+selectedImg+'.png'">
+            <div class="gallery">
+                <!--<img *ngIf="selectedImg==Image"   src="./assets/images/Home/Login_ProfilePicSelection_Tick.png"> -->
+                <img (click)="selected(i)" *ngFor="let Image of img; let i=index"
+                    [src]="'./assets/images/Home/'+Image+'.png'">
+            </div>
+            <div class="conform" (click)="setdp(selectedImg)">
+                <img src="./assets/conform.png">
+                <p>CONFIRM</p>
+            </div>
+            <div class="Profile">
+                <img src="./assets/Panel_TopCentral_Silver.png">
+                <p>PROFILE PICTURE</p>
+            </div>
+        </div>
+    </div>
+</div>

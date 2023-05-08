@@ -1,0 +1,593 @@
+.cricket-player-background {
+  background-image: url(../images/player/player-bg2.jpg);
+}
+
+.cricket-player-header {
+  background-image: url(../images/player/player-header.png);
+}
+
+.cricket-player-header-section {
+  overflow: hidden;
+  width: 100%;
+}
+
+.cricket-player-one {
+  width: 30%;
+  float: left;
+}
+
+.cricket-float-right {
+  float: right;
+}
+
+.cricket-player-two {
+  width: 40%;
+  float: left;
+  /*padding: 10px;*/
+}
+
+.cricket-player-bat {
+  width: 25px;
+  height: 25px;
+  float: left;
+  padding: 3px 2px 0;
+  margin: 0 0 0 8px;
+}
+
+.cricket-player-icon {
+  width: 25px;
+  height: 25px;
+  float: left;
+  border: 1px solid #1e5fc1;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+.cricket-player-ball {
+  width: 25px;
+  height: 25px;
+  float: right;
+  padding: 3px 2px 0;
+  margin: 0 8px 0 0px;
+}
+
+.cricket-player-icon-two {
+  width: 25px;
+  height: 25px;
+  float: right;
+  border: 1px solid #ff1919;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.cricket-player-usericon {
+  width: 68%;
+  margin: 0 auto;
+}
+
+.cricket-player-name {
+  width: 100%;
+  height: 25px;
+  padding-top: 5px;
+}
+
+.cricket-player-name h2 {
+  font-family: 'Microsoft Tai Le';
+  margin: 0;
+  font-size: 12px;
+  font-weight: bold;
+  color: #4c94ff;
+  padding: 0 5px 0;
+  text-transform: uppercase;
+  /* text-align: center; */
+}
+
+.cricket-text-right {
+  text-align: right;
+  color: #e64040 !important;
+}
+
+.cricket-player-score-board {
+  width: 100%;
+  overflow: hidden;
+}
+
+.cricket-player-score-board h2 {
+  font-family: 'Microsoft Tai Le';
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #e6c545;
+  /*padding: 0 5px 0;*/
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cricket-player-score-ball {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.center-balls {
+  display: inline-block
+}
+
+.ball-one {
+  width: 21px;
+  height: 21px;
+  border: 1px solid #667599;
+  border-radius: 50%;
+  background-color: #18181c;
+  float: left;
+  margin: 0 1px 0;
+}
+
+.ball-one p {
+  margin: 0;
+  text-align: center;
+  color: #1f5099;
+  /*font-size: 12px;*/
+  font-family: 'Microsoft Tai Le';
+  font-weight: 700;
+}
+
+.cricket-score-board-bg {
+  background-color: #e7e8ea;
+  border-color: #16191e;
+}
+
+.cricket-need-runs {
+  width: 60%;
+  position: relative;
+  /*top: 3px;*/
+  margin: 0 auto;
+  /*padding: 2px 0;*/
+  clear: both;
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 15%, rgba(0, 0, 0, 0.8) 19%, rgba(0, 0, 0, 0.8) 21%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 51%, rgba(0, 0, 0, 0.8) 80%, rgba(0, 0, 0, 0.8) 81%, rgba(0, 0, 0, 0.8) 85%, rgba(0, 0, 0, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 15%, rgba(0, 0, 0, 0.8) 19%, rgba(0, 0, 0, 0.8) 21%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 51%, rgba(0, 0, 0, 0.8) 80%, rgba(0, 0, 0, 0.8) 81%, rgba(0, 0, 0, 0.8) 85%, rgba(0, 0, 0, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 15%, rgba(0, 0, 0, 0.8) 19%, rgba(0, 0, 0, 0.8) 21%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 51%, rgba(0, 0, 0, 0.8) 80%, rgba(0, 0, 0, 0.8) 81%, rgba(0, 0, 0, 0.8) 85%, rgba(0, 0, 0, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#00000000', GradientType=1);
+}
+
+.cricket-need-runs p {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #fff;
+  text-align: center;
+  font-family: 'Microsoft Tai Le';
+  text-shadow: 0px 0px 30px rgba(249, 66, 14, 0.95);
+}
+
+.cricket-footer-bg {
+  background-image: url(../images/player/player-footer-bg.png);
+  /*background-image: url("../images/BKG1.png");*/
+  width: 100% !important;
+  margin: 0px auto 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 150px;
+
+}
+
+.cricket-playing-drar-card {
+  height: 70%;
+  /* height:calc(100vh-180px); */
+}
+
+.cricket-width-100-percent {
+  width: 100% !important;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding: 8px 5px 0px;
+}
+
+.cricket-height-card-image {
+  height: 135px;
+}
+
+.cricket-all-cards {
+  width: 98%;
+  /* padding: 20px 10px 0; */
+}
+
+.cricket-playing-timer-left-hiding {
+  float: left;
+  width: 20%;
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  -webkit-animation: slideInLeft 1s forwards;
+  -moz-animation: slideInLeft forwards;
+  animation: slideInLeft 1s forwards;
+  /* clip-path: inset(50% 0 0 0);
+  -webkitclip-path: inset(50% 0 0 0); */
+
+}
+
+.cricket-playing-timer-left {
+  float: left;
+  width: 20%;
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  -webkit-animation: slideInLeft 1s forwards;
+  -moz-animation: slideInLeft forwards;
+  animation: slideInLeft 1s forwards;
+}
+
+.cricket-playing-timer-right {
+  float: right;
+  width: 20%;
+  position: absolute;
+  top: 80px;
+  right: 10px;
+  -webkit-animation: slideInRight 1s forwards;
+  -moz-animation: slideInRight1s forwards;
+  animation: slideInRight 1s forwards;
+
+}
+
+.cricket-playing-timer-right-hiding {
+  float: right;
+  width: 20%;
+  position: absolute;
+  top: 80px;
+  right: 10px;
+  -webkit-animation: slideInRight 1s forwards;
+  -moz-animation: slideInRight1s forwards;
+  animation: slideInRight 1s forwards;
+  clip-path: inset(50% 0 0 0);
+  -webkitclip-path: inset(50% 0 0 0);
+}
+
+.cricket-playing-timer-right-time {
+  float: right;
+  width: 20%;
+  position: absolute;
+  top: 89px;
+  right: 10px;
+  z-index: 1;
+  -webkit-animation: slideInRight 1s forwards;
+  -moz-animation: slideInRight1s forwards;
+  animation: slideInRight 1s forwards;
+  text-align: center;
+}
+
+.cricket-playing-timer-right-time h3 {
+
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Microsoft Tai Le';
+  text-shadow: 0px 0px 30px rgba(249, 66, 14, 0.95);
+  line-height: 3;
+  font-weight: 600;
+  color: #fff;
+}
+
+.cricket-playing-timer-left-time {
+  float: left;
+  width: 20%;
+  position: absolute;
+  top: 89px;
+  text-align: center;
+  left: 10px;
+  z-index: 1;
+  -webkit-animation: slideInLeft 1s forwards;
+  -moz-animation: slideInLeft 1s forwards;
+  animation: slideInLeft 1s forwards;
+}
+
+.cricket-playing-timer-left-time h3 {
+
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Microsoft Tai Le';
+  text-shadow: 0px 0px 30px rgba(249, 66, 14, 0.95);
+  line-height: 3;
+  font-weight: 600;
+  color: #fff;
+}
+
+@-webkit-keyframes slideInLeft {
+  0% {
+    transform: translateX(-100px);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
+}
+
+@-moz-keyframes slideInLeft {
+  0% {
+    transform: translateX(-100px);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100px);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
+}
+
+@-webkit-keyframes slideInRight {
+  0% {
+    transform: translateX(100px);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
+}
+
+@-moz-keyframes slideInRight {
+  0% {
+    transform: translateX(100px);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100px);
+  }
+
+  100% {
+    transform: translateX(10);
+  }
+}
+.cricket-playing-opposite-player {
+  width: 24%;
+  margin: 0 auto;
+  /*border: 2px solid #000;*/
+  height: 30%;
+  position: relative;
+  top: 28%;
+}
+toss result {
+  width: 15%;
+  position: relative;
+  left: 42%;
+  top: 13%;
+}
+.place-card-msg1 {
+  background-image: url(../../assets/images/BkgPopUp01.png);
+  width:75%;
+  height: 75px;
+  text-align:center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin:0 auto;
+  position: absolute;
+  left:12%;
+  bottom:20%;
+  z-index: 9999;
+ }
+.place-card-msg2 {
+  background-image: url(../../assets/images/BkgPopUp02.png);
+  width:75%;
+  height: 60px;
+  text-align:center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin:0 auto;
+  position: absolute;
+  left:12%;
+  bottom:20%;
+  z-index: 9999;
+ }
+ .place-card-msg2 h2, .place-card-msg1 h2 {
+  position:relative;
+  text-align: center;
+  transform: translateY(-50%);
+    top: 50%;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 25px;
+  font-family: 'Microsoft Tai Le';
+}
+
+.cricket-player-own-player {
+  width: 24%;
+  margin: 0 auto;
+  /*border: 2px solid #000;*/
+  height: 30%;
+  position: relative;
+  top: 15%;
+}
+
+.draggable {
+  width: 100%;
+}
+
+.move-deck-cards {
+  animation-name: deck-cards-anim;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-direction: normal;
+  z-index: 1;
+}
+
+@keyframes deck-cards-anim {
+  0% {
+    transform: translateX(100px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.opp-card-start-anim {
+  display: block;
+  animation-name: opp-card-start;
+  animation-duration: 0.5s;
+
+  animation-fill-mode: both;
+  animation-direction: normal;
+
+}
+
+@keyframes opp-card-start {
+  0% {
+    transform: translate(700px, -700px) scale(-2, 2);
+  }
+
+  100% {
+    transform: translateX(0px) scale(1, 1);
+  }
+}
+
+.deck-card {
+  display: block;
+}
+
+.opp-move-end {
+  -webkit-animation: opp-mover-end 0.5s;
+  animation: opp-mover-end 0.5s;
+  opacity: 0;
+
+}
+
+@keyframes opp-mover-end {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  20% {
+    transform: translateY(25px);
+    opacity: 1;
+  }
+
+  60% {
+    transform: translateY(-25px);
+    opacity: 1;
+  }
+
+  99% {
+    transform: translateX(-700px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(-700px);
+    opacity: 0;
+  }
+}
+
+.player-move-end {
+  -webkit-animation: player-mover-end 0.5s;
+  animation: player-mover-end 0.5s;
+  opacity: 0;
+}
+
+@keyframes player-mover-end {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  20% {
+    transform: translateY(-25px);
+    opacity: 1;
+  }
+
+  60% {
+    transform: translateY(25px);
+    opacity: 1;
+  }
+
+  99% {
+    transform: translateX(700px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(700px);
+    opacity: 0;
+  }
+}
+
+.move-ne {
+  /*-webkit-animation: mymove 10s infinite; */
+  /*-webkit-animation-timing-function: linear;*/
+  /*animation: mymove 10s infinite;*/
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  animation: flip3 4s infinite;
+}
+
+/*#axis:hover .move-ne {
+
+      transform:rotateY(360deg);
+}
+.translate{
+	transform: translate(150px,-177px);
+	-webkit-transform: translate(150px,-177px);
+	-o-transform: translate(150px,-177px);
+} */
+@keyframes flip3 {
+  0% {
+    -webkit-transform: rotateY(0deg);
+  }
+
+  25% {
+    -webkit-transform: rotateY(90deg);
+  }
+
+  50% {
+    -webkit-transform: rotateY(180deg);
+  }
+
+  75% {
+    -webkit-transform: rotateY(270deg);
+  }
+
+  100% {
+    -webkit-transform: rotateY(360deg);
+  }
+}
+
+.turn-section {
+  width: 100%;
+  height: 30px;
+  /* position: absolute; */
+  bottom: 0px;
+}
+
+.turn-name {
+  background-image: url(../images/SPR_PlayerTurnPanel.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 60%;
+  margin: auto;
+}
+
+.turn-name h2 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 30px;
+  font-family: 'Microsoft Tai Le';
+  text-shadow: 0px 0px 30px rgba(249, 66, 14, 0.95);
+}

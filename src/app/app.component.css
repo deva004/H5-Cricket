@@ -1,0 +1,48 @@
+
+    .main-rout{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(../assets/images/Home/HomeScreen_NewLockedStates/NewBG.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+     }
+
+    .landscape {
+      display: grid;
+      top: 22%;
+      position: absolute;
+      left: 16%;
+      z-index: 100;
+      width: 71vw;
+      height: 55vh;
+      background-image: url(src/assets/score/popup-frame.png);
+      background-size: 100% 100%;
+    
+    }
+    .landscape p{
+      width: 100%;
+      display: flex;
+      justify-self: center;
+      align-self: center;
+      color: #ffff;
+      margin: 2%;
+      padding:5%;
+      font-family: Prometo-Bold;
+      font-size: calc(1.5*( 1.1vh + 1.5vw));
+    }
+    .landscape button{
+      display: -webkit-box;
+      display: flex;
+      justify-self: center;
+      align-self: center;
+      font-family: 'Prometo-Bold';
+      justify-content: center;
+      -webkit-box-align: center;
+      margin-top: -10%;
+    
+    }
+  
+  
+  
+  
+  

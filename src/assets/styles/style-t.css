@@ -1,0 +1,711 @@
+*{
+    margin:0px;
+    padding:0px;
+    height:auto;
+}
+body{
+    font-family: 'Open Sans', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+}
+.padding-remove{
+    padding: 0 !important;
+}
+.clearfix{
+    clear: both;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.cricket-gaming{
+    background-image: url("../images/hero-background.jpg");
+    margin: 0 auto;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cricket-gaming-background{
+    background-image: url("../images/login/login-bg2.jpg");
+    height: 100vh;
+    /* width: 30% !important; */
+    margin: 0 auto;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.cricket-fixed-header{
+    background-image: url("../images/header/header.png");
+    /* width: 30%; */
+    position: fixed;
+    z-index: 99999;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50px;
+}
+.cricket-gaming-heading{
+    width: 100%;
+    overflow: hidden;
+}
+
+.cricket-golive-games h1{
+    font-size: 19px;
+    color: #e6c545;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+    word-break: break-all;
+    /* line-height: 45px; */
+    padding-top: 15px;
+}
+.tournament-home{
+    width: 45%;
+}
+.tournament-home button{
+    background-image: url("../images/home-bg.png");
+    margin: 0 auto;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    border-radius: 0;
+    font-weight: 700;
+    margin: 1px 0 0 3px; 
+    outline: none;
+    border: 2px solid #424242;
+    opacity: 0.9;
+}
+.tournament-refresh{
+    width: 45%;
+    float: right;
+    margin: 0 3px 0 0;
+}
+/* .cricket-gold-coin{
+    padding-top: 10px;
+} */
+/* .coins-image{
+    width:22px;
+    float: left;
+}
+
+.cricket-gold-coin h3{
+    margin: 0;
+    width: 60%;
+    float: left;
+    color: #e6c545;
+    font-size: 18px;
+    font-weight: 700;
+    padding:3px 5px 0;
+
+} */
+
+.tournament-background{
+    background-image: url("../images/BKG1.png");
+    width: 97%;
+    margin: 2px auto 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.leader-board-width{
+    position: relative;
+    width: 102%;
+    left: -4px;
+}
+.tournament-coins{
+    clear: both;
+}
+.tournament-head-choose{
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
+    background-image: url("../images/tournament-head.png");
+    margin: 0 auto 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 8px 0;  
+}
+.tournament-head-choose h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    font-weight: 700;
+    font-style: italic;
+    -webkit-text-stroke: 0.5px #000;
+    z-index: 999999999999;
+    text-align: center;
+    font-family: 'Calibri' !important;
+}
+.tournament-coins-list{
+    overflow: hidden;
+    margin: 20px auto 0;
+    width: 96%;
+    height: -moz-calc(100vh - (121px));
+    height: -webkit-calc(100vh - (121px));
+    height: calc(100vh - (121px));
+    display:block;
+    overflow-y: auto;
+    padding: 0 2px 0; 
+}
+.tournament-coins-list li{
+    list-style: none;
+    height: 49%;
+    margin-bottom: 15px;
+}
+.cricket-register{
+    width: 90%;
+    position: relative;
+    top: -17px;
+    margin: 0 auto;
+    padding: 2px 0;
+    background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 15%, rgba(0,0,0,0.8) 19%, rgba(0,0,0,0.8) 21%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.8) 51%, rgba(0,0,0,0.8) 80%, rgba(0,0,0,0.8) 81%, rgba(0,0,0,0.8) 85%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 15%,rgba(0,0,0,0.8) 19%,rgba(0,0,0,0.8) 21%,rgba(0,0,0,0.8) 50%,rgba(0,0,0,0.8) 51%,rgba(0,0,0,0.8) 80%,rgba(0,0,0,0.8) 81%,rgba(0,0,0,0.8) 85%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 15%,rgba(0,0,0,0.8) 19%,rgba(0,0,0,0.8) 21%,rgba(0,0,0,0.8) 50%,rgba(0,0,0,0.8) 51%,rgba(0,0,0,0.8) 80%,rgba(0,0,0,0.8) 81%,rgba(0,0,0,0.8) 85%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 );
+}
+.cricket-register p{
+    font-size: 9px;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #fff;
+    text-align: center;
+}
+.cricket-tournament-rank{
+    width: 15%;
+    position: absolute;
+    left: 10px;
+    z-index: 999;
+    top: 24px;
+}
+.cricket-tournament-information button{
+    padding: 3px 0;
+    background-color: none;
+    width: 100%;
+    background-image: url("../images/tournament/i-btn.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    border: 2px solid #000;
+    border-radius: 2px;
+    outline: none;
+    font-family: 'Bookman Old Style';
+    font-weight: bold;
+    font-size: 15px;
+    text-shadow: 2px 0 0 #28313a, -2px 0 0 #28313a, 0 2px 0 #28313a, 0 -2px 0 #28313a, 1px 1px #28313a, -1px -1px 0 #28313a, 1px -1px 0 #28313a, -1px 1px 0 #28313a;
+    -webkit-box-shadow: -2px 2px 0px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 2px 0px 0px rgba(0,0,0,0.75);
+box-shadow: -2px 2px 0px 0px rgba(0,0,0,0.75);
+}
+.cricket-tournament-information{
+    width: 15%;
+    position: absolute;
+    right: 5px;
+    z-index: 999;
+    top: 24px;    
+}
+.cricket-tournament-rank button{
+        padding: 4px 2px;
+    background-color: none;
+    width: 100%;
+    background-image: url("../images/tournament/i-btn.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    border: 1.5px solid #000;
+    border-radius: 2px;
+    outline: none;
+    -webkit-box-shadow: -2px 2px 0px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 2px 0px 0px rgba(0,0,0,0.75);
+box-shadow: -2px 2px 0px 0px rgba(0,0,0,0.75);
+}
+.tournament-gold-coins{
+    padding: 24px 6px 0 !important;
+}
+.cricket-register-height{
+    padding: 0 8px !important;
+    height: 100%;
+}
+.tournament-gold-coins-details{
+    background-image: url("../images/tournament/tour-gold-bg.jpg");
+    height: 95%;
+    width: 100%;
+    margin: 0 auto 2px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.tournament-gold-header{
+    width: 70%;
+    margin: 0 auto;
+    padding: 8px 0 3px 0;
+}
+.tournament-gold-header h2{
+    margin: 0;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 0 0 #4d1a00, -2px 0 0 #4d1a00, 0 2px 0 #4d1a00, 0 -2px 0 #4d1a00, 1px 1px #4d1a00, -1px -1px 0 #4d1a00, 1px -1px 0 #4d1a00, -1px 1px 0 #4d1a00;
+}
+.tournament-gold-cup{
+    width: 50%;
+    margin: 0 auto;
+}
+.tournament-gold-opponent{
+    background-image: url("../images/tournament/tour-gold-title.png");
+    height: 9%;
+    width: 86%;
+    margin: 2px auto 2px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.tournament-gold-opponent-online{
+    padding: 0 !important;
+}
+.tournament-gold-opponent-online h4{
+    margin: 0;
+    font-size: 7px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 18px;
+    padding: 0 0 0 11px;
+    text-shadow: 2px 0 0 #331400, -2px 0 0 #331400, 0 2px 0 #331400, 0 -2px 0 #331400, 1px 1px #331400, -1px -1px 0 #331400, 1px -1px 0 #331400, -1px 1px 0 #331400;
+}
+.tournament-gold-opponent-online-count{
+    padding: 0 !important;
+}
+.tournament-gold-opponent-online-count h3{
+    margin: 0;
+    font-size: 7px;
+    font-weight: 700;
+    color: #fff266;    
+    text-align: right;
+    padding: 0 11px 0 0;
+    line-height: 18px;
+    text-shadow: 2px 0 0 #331400, -2px 0 0 #331400, 0 2px 0 #331400, 0 -2px 0 #331400, 1px 1px #331400, -1px -1px 0 #331400, 1px -1px 0 #331400, -1px 1px 0 #331400;
+}
+.tournament-gold-btn{
+    width: 86%;
+    margin: 0 auto;
+}
+.tournament-gold-btn button{
+    background-color: transparent;
+    background-image: url("../images/tournament/gold-btn.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: none;
+    width: 100%;
+    padding: 7px 0;
+    box-shadow: 0px 2px #000000;
+    text-shadow: 2px 0 0 #002759, -2px 0 0 #002759, 0 2px 0 #002759, 0 -2px 0 #002759, 1px 1px #002759, -1px -1px 0 #002759, 1px -1px 0 #002759, -1px 1px 0 #002759;        
+}
+.tournament-gold-btn button:hover{
+    background-color: none;
+    color: #fff;
+}
+.tournament-sliver-coins-details{
+    background-image: url("../images/tournament/tour-sliver-bg.jpg");
+    height: 95%;
+    width: 100%;
+    margin: 0 auto 2px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.tournament-sliver-coins{
+    padding: 24px 8px 0 !important;    
+}
+.tournament-sliver-header{
+    width: 70%;
+    margin: 0 auto;
+    padding: 8px 0 3px 0;
+}
+.tournament-sliver-header h2{
+    margin: 0;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 0 0 #000e29, -2px 0 0 #000e29, 0 2px 0 #000e29, 0 -2px 0 #000e29, 1px 1px #000e29, -1px -1px 0 #000e29, 1px -1px 0 #000e29, -1px 1px 0 #000e29;
+}
+.tournament-sliver-cup{
+    width: 54%;
+    margin: 0 auto;
+}
+.tournament-sliver-opponent{
+    background-image: url("../images/tournament/tour-sliver-title.png");
+    height: 9%;
+    width: 86%;
+    margin: 2px auto 2px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.tournament-sliver-opponent-online{
+    padding: 0 !important;
+}
+.tournament-sliver-opponent-online h4{
+    margin: 0;
+    font-size: 8px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 18px;
+    padding: 0 0 0 11px;
+    text-shadow: 2px 0 0 #001133, -2px 0 0 #001133, 0 2px 0 #001133, 0 -2px 0 #001133, 1px 1px #001133, -1px -1px 0 #001133, 1px -1px 0 #001133, -1px 1px 0 #001133;
+}
+.tournament-sliver-opponent-online-count{
+    padding: 0 !important;
+}
+.tournament-sliver-opponent-online-count h3{
+    margin: 0;
+    font-size: 8px;
+    font-weight: 700;
+    color: #fff266;    
+    text-align: right;
+    padding: 0 11px 0 0;
+    line-height: 18px;
+    text-shadow: 2px 0 0 #001133, -2px 0 0 #001133, 0 2px 0 #001133, 0 -2px 0 #001133, 1px 1px #001133, -1px -1px 0 #001133, 1px -1px 0 #001133, -1px 1px 0 #001133;
+}
+.tournament-sliver-btn{
+    width: 86%;
+    margin: 0 auto;
+}
+.tournament-sliver-btn button{
+    background-color: transparent;
+    background-image: url("../images/tournament/gold-btn.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: none;
+    width: 100%;
+    padding: 7px 0;
+    box-shadow: 0px 2px #000000;
+    text-shadow: 2px 0 0 #002759, -2px 0 0 #002759, 0 2px 0 #002759, 0 -2px 0 #002759, 1px 1px #002759, -1px -1px 0 #002759, 1px -1px 0 #002759, -1px 1px 0 #002759;
+}
+.tournament-sliver-btn button:hover{
+    background-color: none;
+    color: #fff;
+}
+
+.tournament-cooper-coins-details{
+    background-image: url("../images/tournament/tour-cooper-bg.jpg");
+    height: 95%;
+    width: 100%;
+    margin: 0 auto 2px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.tournament-cooper-coins{
+    padding: 24px 8px 0!important;      
+}
+.tournament-cooper-header{
+    width: 70%;
+    margin: 0 auto;
+    padding: 8px 0 3px 0;
+}
+.tournament-cooper-header h2{
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 0 0 #291000, -2px 0 0 #291000, 0 2px 0 #291000, 0 -2px 0 #291000, 1px 1px #291000, -1px -1px 0 #291000, 1px -1px 0 #291000, -1px 1px 0 #291000;
+}
+.tournament-cooper-cup{
+    width: 45%;
+    margin: 0 auto;
+}
+.tournament-cooper-opponent{
+    background-image: url("../images/tournament/tour-cooper-title.png");
+    height: 9%;
+    width: 86%;
+    margin: 2px auto 2px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.tournament-cooper-opponent-online{
+    padding: 0 !important;
+}
+.tournament-cooper-opponent-online h4{
+    margin: 0;
+    font-size: 8px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 18px;
+    padding: 0 0 0 11px;
+    text-shadow: 2px 0 0 #331400, -2px 0 0 #331400, 0 2px 0 #331400, 0 -2px 0 #331400, 1px 1px #331400, -1px -1px 0 #331400, 1px -1px 0 #331400, -1px 1px 0 #331400;
+}
+.tournament-cooper-opponent-online-count{
+    padding: 0 !important;
+}
+.tournament-cooper-opponent-online-count h3{
+    margin: 0;
+    font-size: 8px;
+    font-weight: 700;
+    color: #fff266;    
+    text-align: right;
+    padding: 0 11px 0 0;
+    line-height: 18px;
+    text-shadow: 2px 0 0 #331400, -2px 0 0 #331400, 0 2px 0 #331400, 0 -2px 0 #331400, 1px 1px #331400, -1px -1px 0 #331400, 1px -1px 0 #331400, -1px 1px 0 #331400;
+}
+.tournament-cooper-btn{
+    width: 86%;
+    margin: 0 auto;
+}
+.tournament-cooper-btn button{
+    background-color: transparent;
+    background-image: url("../images/tournament/gold-btn.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: none;
+    width: 100%;
+    padding: 7px 0;
+    box-shadow: 0px 2px #000000;
+    text-shadow: 2px 0 0 #002759, -2px 0 0 #002759, 0 2px 0 #002759, 0 -2px 0 #002759, 1px 1px #002759, -1px -1px 0 #002759, 1px -1px 0 #002759, -1px 1px 0 #002759;
+}
+.tournament-cooper-btn button:hover{
+    background-color: none;
+    color: #fff;
+}
+
+.cricket-scroll-bar::-webkit-scrollbar {
+    width: 1px;
+    background:transparent;
+}
+
+.cricket-scroll-bar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 255, 0);
+    border-radius: 50px;
+}
+
+.cricket-scroll-bar::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.01);
+    background: transparent;
+}
+.cricket-unlimited{
+    width: 60%;
+    margin: 0 auto;
+}
+.cricket-width-96-per{
+    width: 96%;
+    margin: 0 auto;
+}
+.cricket-team-roster h2{
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    bottom: 27px;
+    right: 88px;
+    font-style: italic;
+
+}
+.cricket-tournament-invites{
+    width: 100%;
+    margin: 0 auto;
+    /*height: 150px;*/
+    padding-top: 5px;
+}
+.cricket-tournament{
+    width: 98%;
+}
+.cricket-tournament h2{
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+        bottom: 20px;
+    right: 22px;
+    font-style: italic;
+}
+.cricket-invites{
+    width: 98%;
+    float: right;
+}
+.cricket-invites h2{
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    right: 22px;
+    font-style: italic;
+}
+.cricket-status-auction{
+    width: 100%;
+    margin: 0 auto;
+    /*height: 150px;*/
+    padding-top: 5px !important;
+}
+.cricket-status{
+    width: 98%;
+
+}
+.cricket-status h2{
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+        bottom: 20px;
+    right: 22px;
+    font-style: italic;
+}
+.cricket-auction{
+    width: 98%;
+    float: right;
+}
+.cricket-auction h2{
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+        bottom: 20px;
+    right: 22px;
+    font-style: italic;
+}
+.cricket-player-bg-height{
+    height: 90vh;
+}
+/*
+@media (min-width: 768px) and (max-width: 991px){
+    .cricket-gaming-background{
+        width: 100% !important;
+        height: 122vh;
+    }
+    .cricket-head-image{
+        width: 100%;
+        height: 75px;
+    }
+    .cricket-golive-games h1{
+        padding: 7px 0 0 62px;
+        font-size: 24px;
+    }
+    .cricket-gold-coin{
+        padding-top: 20px !important; 
+    }
+    .cricket-tournament img{
+        width: 100%;
+    }
+    .cricket-invites img{
+        width: 100%;
+    }
+    .cricket-status img{
+        width: 100%;
+    }
+    .cricket-auction img{
+        width: 100%;
+    }
+}*/
+@media (min-width: 768px) and (max-width: 991px){
+    .cricket-gaming-background{
+        width: 56% !important;
+
+    }        
+    /* .cricket-fixed-header{
+        width: 100%;
+    } */
+}
+@media (min-width: 480px) and (max-width: 767px){
+    /* .cricket-gaming-background{
+        width: 83% !important;
+        height: 260vh;
+    } */
+    /*.cricket-gaming-background{
+        width: 100% !important;
+        height: 122vh;
+    }
+    .cricket-head-image{
+        width: 100%;
+        height: 75px;
+    }
+    .cricket-golive-games h1{
+        padding: 7px 0 0 62px;
+        font-size: 24px;
+    }
+    .cricket-gold-coin{
+        padding-top: 20px !important; 
+    }
+    .cricket-tournament img{
+        width: 100%;
+    }
+    .cricket-invites img{
+        width: 100%;
+    }
+    .cricket-status img{
+        width: 100%;
+    }
+    .cricket-auction img{
+        width: 100%;
+    }*/
+}
+@media (min-width: 601px) and (max-width: 767px){
+    /* .cricket-fixed-header{
+        width: 83%;
+    } */
+    .tournament-home {
+        width: 30%;
+    }
+    .tournament-home button {
+        margin: 5px 0 0 5px;
+    }
+}
+@media (min-width: 480px) and (max-width: 600px){
+    /* .cricket-fixed-header{
+        width: 83%;
+    } */
+    .tournament-home {
+        width: 40%;
+        
+    }
+    .tournament-home button {
+        margin: 4px 0 0 5px;
+    }
+}
+@media (min-width: 320px) and (max-width: 479px){
+    /* .cricket-fixed-header {
+        width: 100%;
+        height: 45px;
+    } */
+    .tournament-home button {
+        margin: 3px 0 0 5px;
+    }
+    .cricket-gaming-background {
+        width: 100% !important;
+    }
+    .tournament-refresh {
+        width: 47%;
+        margin: 0 5px 0 0;
+    }
+    .tournament-background {
+        margin: 5px auto 0;
+    }
+    .tournament-home {
+        width: 70%;
+    }
+    .tournament-coins-list{
+        max-height: -moz-calc(100vh - (128px));
+        max-height: -webkit-calc(100vh - (128px));
+        max-height: calc(100vh - (128px));
+     }
+     .tournament-team-table th {
+        font-size: 10px !important;
+    }
+    .tournament-gold-fee h4 {
+        font-size: 55%;
+    }
+}

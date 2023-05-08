@@ -1,0 +1,640 @@
+.cricket-gaming-invites-continue-button {
+    background: rgb(41, 47, 60, 0.6);
+    overflow: hidden;
+    clear: both;
+    margin: 0 auto;
+    position: relative;
+    padding: 25px 0;
+    top: 115px;
+    border-top: 2px solid #85c2fe;
+    -webkit-box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.cricket-gaming-invites-continue-button button {
+    background-image: url("../images/continue.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 0 !important;
+    border: 2px solid #16181d;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.cricket-gaming-invites-continue-button button:hover {
+    color: #fff;
+}
+
+.cricket-gaming-noeffect-view-list:hover {
+    transform: scale(1.0) !important;
+    border-color: #000 !important;
+}
+
+.cricket-release-extend-details {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+.cricket-contract-expiring p {
+    font-size: 12px;
+    color: #bf393c;
+    margin-bottom: 0;
+    font-weight: 700;
+    padding: 0 0 0 10px;
+}
+
+.cricket-release button {
+    background-image: url("../images/release.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+.cricket-extend button {
+    background-image: url("../images/extend.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+.cricket-release button:hover {
+    color: #fff;
+}
+
+.cricket-extend button:hover {
+    color: #fff;
+}
+
+.nav-tabs {
+    border-top: 4px solid #2eb9ff;
+}
+
+.nav-tabs>li>a {
+    border: none;
+    color: #fff;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li>a:hover {
+    border: none;
+    color: #fff !important;
+    background: transparent;
+}
+
+.nav-tabs>li>a::after {
+    content: "";
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+}
+
+.tab-pane {
+    padding: 0;
+}
+
+.tab-content {
+    padding: 10px 10px 0px;
+}
+
+.cardDetails {
+    width: 98.1%;
+    margin: 0 auto !important;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+.nav-tabs>li {
+    width: 50% !important;
+    background-image: url(../images/bowling-btn.png);
+    margin-bottom: 0 !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Microsoft New Tai Lue', sans-serif !important;
+    padding: 5px 0;
+}
+
+.nav-tabs>li.active {
+    background-image: url(../images/deck_btn.png);
+    margin-bottom: 0 !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.nav-tabs>li>a {
+    margin-right: 0 !important;
+    border: none !important;
+    padding: 5px 10px !important;
+    color:#fff!important;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+    background: transparent !important;
+    /* color: #fff !important; */
+    border: none !important;
+}
+
+.nav-tabs>li>a:hover {
+    border: none !important;
+    background: transparent !important;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    background: transparent !important;
+}
+
+a:focus {
+    outline: none !important;
+    outline-offset: 0px !important;
+}
+
+.cricket-myDeck-height {
+    width: 100%;
+    height: -moz-calc(100vh - (60px));
+    height: -webkit-calc(100vh - (60px));
+    height: calc(100vh - (60px));
+    display: block;
+}
+
+.cricket-myDeck-height-66 {
+    width: 100%;
+    height: -moz-calc(100vh - (66px));
+    height: -webkit-calc(100vh - (66px));
+    height: calc(100vh - (66px));
+    display: block;
+}
+
+.cricket-myDeck-batting {
+    width: -moz-calc(100% - (0px));
+    width: -webkit-calc(100% - (0px));
+    width: calc(100% - (0px));
+    /* overflow-x: auto; */
+    white-space: nowrap;
+}
+
+.cricket-batting-select {
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-right: 15px;
+}
+
+.cricket-customize-detail {
+    overflow: hidden;
+    padding: 5px 0 0 15px;
+}
+
+.cricket-customize {
+    background-image: url(../images/custom.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    height: 40px;
+    width: 70%;
+    float: left;
+}
+
+.cricket-customize h2 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    font-family: 'Microsoft New Tai Lue', sans-serif !important;
+    line-height: 40px;
+}
+
+.cricket-auto-select {
+    width: 30%;
+    float: left;
+    padding: 5px 8px 0;
+    opacity: 0.5
+}
+
+.cricket-auto-select h2 {
+    margin: 2px 0 0;
+    font-size: 11px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
+    width: 60%;
+    float: left;
+}
+
+.cricket-customize-checkbox {
+    width: 40%;
+    float: left;
+}
+
+.cricket-customize-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.cricket-customize-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    background-color: #364e61;
+    border: 2px solid #a6d8ff;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.cricket-customize-checkbox:hover input~.checkmark {
+    background-color: #364e61;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.cricket-customize-checkbox input:checked~.checkmark {
+    background-color: #364e61;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.cricket-customize-checkbox input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.cricket-customize-checkbox .checkmark:after {
+    left: 9px;
+    top: 3px;
+    width: 8px;
+    height: 16px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.cricket-opacity-background {
+    opacity: 0.5;
+}
+
+.cricket-myDeck-btn {
+    overflow: hidden;
+}
+
+.cricket-myDeck-btn button {
+    background-color: transparent;
+    background-image: url(../images/myDeck-btn.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    padding: 8px 28px;
+}
+/* .cricket-batting-select{
+    background-image: url('../images/player/SPR_CardHolder.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 135px;
+    background-attachment: fixed!important;
+} */
+.bg-card {
+    background-image: url('../images/player/SPR_CardHolder.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 135px;
+    position: relative;
+    /* background-attachment: fixed!important; */
+}
+
+.cricket-common-card-one {
+    /* background-image: url(../images/cards/common-card-two.png); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+}
+
+.cricket-common-card-two {
+    /* background-image: url(../images/cards/NormalCoverDrive.png); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+}
+
+.cricket-common-card-three {
+    /* background-image: url(../images/cards/common-card-three.png); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 159px;
+    position: relative;
+    cursor: pointer;
+    /* background-color: #0ce3f9; */
+    /* border:2px solid #0ce3f9; */
+}
+
+.cricket-rare-card-one {
+    /* background-image: url(../images/cards/RareBG.png); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    z-index: 99;
+}
+
+.cricket-rare-card-two {
+    /* background-image: url(../images/cards/NormalCoverDrive.png); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+}
+
+.cricket-rare-card-three {
+    /* background-image: url(../images/cards/RareTop.png); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 159px;
+    position: relative;
+    z-index: 999;
+}
+
+.cricket-epic-card-one {
+    /* background-image: url(../images/cards/EpicBG.png); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    z-index: 99;
+}
+
+.cricket-epic-card-two {
+    /* background-image: url(../images/cards/NormalCoverDrive.png); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+}
+
+.cricket-epic-card-three {
+    /* background-image: url(../images/cards/EpicTop.png); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 159px;
+    position: relative;
+    z-index: 999;
+}
+
+.cricket-legendary-card-one {
+    /* background-image: url(../images/cards/LegendaryBG.png); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    z-index: 99;
+}
+
+.cricket-legendary-card-two {
+    /* background-image: url(../images/cards/NormalCoverDrive.png); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+}
+
+.cricket-legendary-card-three {
+    /* background-image: url(../images/cards/LegendaryTop.png); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 159px;
+    position: relative;
+    z-index: 999;
+}
+
+.cricket-mydeck-batting-info button {
+    background-image: url(../images/mydeck/info-btn.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    font-weight: 700;
+    width: 100%;
+    border: none;
+    padding: 3px 0;
+    -webkit-text-stroke: 0.5px black;
+    visibility: hidden;
+    margin-top: 4px;
+}
+
+.cricket-display-table-inline {
+    display: inline-block;
+    position: relative;
+    z-index: 999;
+    padding: 2px;
+    border: 2px solid transparent;
+}
+
+.cricket-width-25-percent {
+    width: 25% !important;
+}
+
+.cricket-width-30-percent {
+    width: 32% !important;
+}
+
+.cricket-card-selected {
+    border: 2px solid #a5f8ff;
+    border-radius: 4px;
+    padding: 2px;
+    background: #0ce3f9;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(67, 139, 228, 1);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(67, 139, 228, 1);
+    box-shadow: 0px 0px 30px 0px rgba(67, 139, 228, 1);
+}
+
+.cricket-card-selected button {
+    visibility: visible;
+}
+
+.cricket-position-fixed {
+    position: fixed;
+    width: 30%;
+    margin: 0 auto;
+    bottom: 20px;
+}
+
+.cricket-mydeck-batting-info img {
+    width: 15px;
+    margin: 0 0 3px 3px;
+}
+
+
+/********************************************************************/
+
+
+/****************popup**********************/
+
+.cricket-card-information {
+    z-index: 9999999999999999 !important;
+}
+
+#element_to_pop_up {
+    background-color: transparent;
+    background-image: url("../images/refer/refer-popup.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #000;
+    display: none;
+    min-width: 400px;
+}
+
+.mydeck-popup-header {
+    width: 98%;
+    margin: 3px auto 0;
+    height: 50px;
+    background-image: url("../images/login/login-header.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.mydeck-card-content {
+    width: 100%;
+    overflow: hidden;
+}
+
+.width-100-percentage {
+    width: 100% !important;
+}
+
+.cricket-next-level h2 {
+    font-size: 12px;
+    margin: 0;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.cricket-probress-bar-card {
+    width: 90%;
+    margin: 50px auto 75px;
+}
+
+.cricket-card-update {
+    margin-bottom: 15px
+}
+
+.cricket-card-update button {
+    background-color: transparent;
+    background-image: url("../images/mydeck/BtnUpgrade.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    padding: 12px;
+}
+
+.cricket-card-update button:hover {
+    color: #fff;
+}
+
+.cricket-card-update img {
+    content: url(../images/header/coin.png)
+}
+
+.update-10k {
+    position: relative;
+    left: 22px;
+    top: -5px;
+}
+
+.cricket-profile-name h2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    text-align: right;
+    line-height: 35px;
+}
+
+.cricket-profile-name h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #e6c545;
+    margin: 0;
+    text-align: center;
+    line-height: 35px;
+}
+
+.cricket-common-epic-rating h2 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.padding-15-percent {
+    padding: 0 15%;
+}

@@ -1,0 +1,110 @@
+<app-header></app-header>
+<div class="main-menu-desktop" (click)=" Audio()">
+
+  <div class="container">
+    <div class="div1" (click)="openModal1();routeFn(1) ">
+      <img class="BG-Card" src="./assets/images/Home/QuickMatch.png" alt="">
+      <img class="Icon" src="./assets/images/Home/QM_Icon.png" alt="">
+      <div class="text">
+        <p class="tittle">QUICK MATCH</p>
+      </div>
+      <div class="play">
+        <img src="./assets/desk/Ok.png" alt="">
+        <p style="margin-left:40%" class="play-text">PLAY </p>
+      </div>
+    </div>
+
+    <div class="div1" (click)="openModal();routeFn(2)">
+      <img class="BG-Card" src="./assets/images/Home/Menu_Card_Square.png" alt="">
+      <img class="Icon" src="./assets/images/Home/Campaign.png" alt="">
+      <div class="text">
+
+        <h6 class="tittle" style="color:#fff">CAMPAIGN</h6>
+      </div>
+      <div class="play">
+        <img src="./assets/desk/Ok.png" alt="">
+        <p style="margin-left:35%" class="play-text">START </p>
+        <p *ngIf="Access=='false'" class="play-text">START <span><img src="./assets/images/Home/Coin.png"></span></p>
+
+      </div>
+    </div>
+
+    <!--    <div class="div1">
+            <img  style="opacity:0.6;" class="BG-Card" src="./assets/images/Home/Menu_Card_Square.png" alt="">
+            <img  style="opacity:0.6;" class="Icon" src="./assets/images/Home/DeckIcon.png" alt="">
+            <div   class="text">
+            <h6  style="opacity:0.6;"class="tittle" style="color:#fff">MY DECK</h6>
+          </div>
+          <div    class="play"  >
+            <img    src="./assets/desk/Ok.png" alt="">
+            <p class="play-text">LOCKED <span><img style="max-width:50%" src="./assets/Card_Lock.png"></span></p>
+        </div>
+        </div>-->
+
+  </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="campaign" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="campaign3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="alert">
+            <p> You Dont Have Enough Coins , Watch An AD To Play</p>
+            <div class="btn-div">
+              <button class="btn btn-primary" routerLink="/{{routelink}}" data-bs-dismiss="modal" aria-label="Close">
+                Watch Ad</button>
+              <button class="btn btn-warning" data-bs-dismiss="modal" aria-label="Close"> Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="Hint" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="alert">
+            <p> {{Hint}}</p>
+            <div style="display:flex;margin-left:40%">
+              <button class="btn btn-warning" data-bs-dismiss="modal" aria-label="Close" (click)=" Hintsfn();">
+                Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="reward" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="alert" style=" background-image: none !important;background-color: rgba(37, 37, 37, 0.5);">
+
+            <i class="fa fa-times" style="color:rgb(245, 96, 96);font-size: 40px; margin: -9% 0% 0% 98%;"
+              aria-hidden="true" data-bs-dismiss="modal" aria-label="Close" (click)="popupFalse()"></i>
+            <p style="color:rgb(247, 191, 48)"> 2x Reward Earned </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

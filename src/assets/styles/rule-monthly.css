@@ -1,0 +1,43 @@
+.cricket-gaming-rule-month-details{
+	padding: 20px 20px 10px;
+}
+.cricket-gaming-rule-month-details p{
+	margin-bottom: 0;
+	font-size: 13px;
+	font-weight: 700;
+	color: #fff;
+	padding: 0 0 15px 0;
+}
+.cricket-gaming-rule-month-details p:last-child{
+	padding: 0;
+}
+.cricket-gaming-rewards{
+
+}
+.cricket-gaming-rewards h2{
+	color: #fff;
+	font-size: 13px;
+	font-weight: 700;
+	text-align: center;
+}
+.cricket-gaming-rewards span{
+	/*text-decoration: underline;*/
+	border-bottom: 2px solid #fff;
+}
+.cricket-gaming-rewards-score p{
+	font-size: 13px;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+	color: #ffd966;
+	/*padding-top: 10px;*/
+}
+.cricket-gaming-rewards-icon{
+	margin-top: 15px;
+}
+.cricket-gaming-rewards-images{
+	width: 70% !important;
+    margin: 0 auto !important;
+    float: initial;
+    padding: 0 !important;
+}

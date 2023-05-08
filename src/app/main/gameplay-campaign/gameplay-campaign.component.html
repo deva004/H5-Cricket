@@ -1,0 +1,170 @@
+<div class="container">
+  <!--Score card-->
+  <div class="gameplay-header d-flex justify-content-center w-100">
+    <div class="player-score-div d-flex justify-content-between">
+      <p class="score opponent-score">16/0</p>
+      <p class="score user-score">13/0</p>
+    </div>
+    <div class="d-flex flex-column align-items-center justify-content-center w-100">
+      <img class="DeckLeft" src="./assets/Deck_LeftSide.png">
+      <img class="DeckRight" src="./assets/Deck_RightSide.png">
+      <img src="./assets/Avatar_Opponent.png" alt="" class="opponent-avatar">
+      <img class="opponent" src="./assets/Match_Oppo.png">
+      <p class="opponent-p">Opponent</p>
+      <img class="cardIcon" src="./assets/Match_CardIcon.png">
+      <img class="opponent-card" src="./assets/Match_OppoCard.png">
+      <p class="opponentCard-p">{{levels[mainLevel][Level].ball |uppercase}}</p>
+      <img src="./assets/Avatar_User.png" alt="" class="player-avatar">
+      <img class="you" src="./assets/Match_You.png">
+      <p class="you-p">YOU</p>
+      <img class="yourCard" src="./assets/Match_MyCard.png">
+      <p class="yourCard-p">Your Card</p>
+      <img class="cardIcon1" src="./assets/Match_CardIcon.png">
+    </div>
+    <div class="match-status d-flex flex-column align-items-center justify-content-center w-25">
+      <p class="status status-overs">OVERS: 0.5/1</p>
+      <p class="status status-innings">FIRST INNINGS</p>
+    </div>
+    <img class="w-50" src="./assets/Panel_TopCentral.png">
+    <img class="silver" src="./assets/Panel_TopCentral_Silver.png">
+    <div class="runs-per-ball d-flex">
+      <div class="ball">
+        <img src="./assets/Score.png" alt="" srcset="">
+        <p class="score-text">1</p>
+      </div>
+      <div class="ball">
+        <img src="./assets/Score.png" alt="" srcset="">
+        <p class="score-text">.</p>
+      </div>
+      <div class="ball">
+        <img src="./assets/Score.png" alt="" srcset="">
+        <p class="score-text">2</p>
+      </div>
+      <div class="ball">
+        <img src="./assets/Score.png" alt="" srcset="">
+        <p class="score-text">4</p>
+      </div>
+      <div class="ball">
+        <img src="./assets/Score.png" alt="" srcset="">
+        <p class="score-text">6</p>
+      </div>
+      <div class="ball">
+        <img src="./assets/Score.png" alt="" srcset="">
+        <p class="score-text"></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="startingCard" class="starting-card d-flex justify-content-center">
+    <p class="starting-card-img">{{levels[mainLevel][Level].objective}}</p>
+    <!--<img class="starting-card-img" src="./assets/StartMessage.png" alt="">-->
+  </div>
+
+  <div id="chooseACard" class="choose-a-card d-flex w-100 h-75 row m-0 pb-2">
+    <div id="opocard" class="bowling-card d-flex col-6 justify-content-center">
+      <img id="opocard-img" class="card-img bowling-card-img"
+        [src]="'./assets/cards/common/'+levels[mainLevel][Level].ball+'.png'" alt="">
+    </div>
+    <div id="chooseItems" class="col d-flex flex-column justify-content-end align-items-center">
+
+      <div *ngIf="Level==1" id="arrow" class="row choose-card w-25 arrow-height d-flex justify-content-center">
+        <img class="arrow" src="./assets/Arrow.png" alt="">
+      </div>
+      <div id="ah" class="row animated-height w-100 justify-content-between">
+        <div class="col-1"></div>
+        <div class="d-flex col justify-content-between">
+          <div id="cut" class="col d-flex justify-content-center batting-card">
+            <img *ngIf="Level==1" id="pointer" src="./assets/Pointer.png" alt="" class="pointer">
+            <img (click)="playCard('cut',levels[mainLevel][Level].outcome1,levels[mainLevel][Level].mission)"
+              class="batting-card-img p-0" [src]="'./assets/cards/common/'+levels[mainLevel][Level].bat1+'.png'" alt="">
+          </div>
+          <div id="leg-glance" class="col d-flex justify-content-center batting-card">
+            <img (click)="playCard('legGlance',levels[mainLevel][Level].outcome2,levels[mainLevel][Level].mission)"
+              class="batting-card-img p-0" [src]="'./assets/cards/common/'+levels[mainLevel][Level].bat2+'.png'" alt="">
+          </div>
+          <div id="reverse-swing" class="col d-flex justify-content-center batting-card">
+            <img (click)="playCard('reverseSwing',levels[mainLevel][Level].outcome3,levels[mainLevel][Level].mission)"
+              class="batting-card-img p-0" [src]="'./assets/cards/common/'+levels[mainLevel][Level].bat3+'.png'" alt="">
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="four-runs">
+    <img style=" height: 100% !important;" class="four-runs" [src]="'./assets/'+outcome+'.png'" alt="">
+    <img style=" height: 100% !important;" *ngIf="outcome==mission" id="text-animation" src="./assets/Awesome_Text.png"
+      alt="">
+  </div>
+
+
+  <div id="two-runs" style=" max-height: 20% !important;">
+    <!--out -->
+    <img style=" height: 100% !important;" class="two-runs result" [src]="'./assets/'+outcome+'.png'" alt="">
+  </div>
+
+  <div id="missed" style="margin-top:20%">
+    <img id="text-animation" class="missed result" src="./assets/missed.png" alt="">
+
+  </div>
+
+
+  <img id="win-bg" class="win-shade-bg" src="./assets/BG_WinShade.png" alt="">
+  <img id="loss-bg" class="loss-shade-bg" src="./assets/BG_LossShade.png" alt="">
+
+
+  <div id="total-loss-box" class="final-box">
+    <p>You Lose The Game</p>
+    <div style="display:flex">
+      <div style="display:grid;justify-items: center;" routerLink="" (click)="gEnd()">
+        <img class="select-option" src="./assets/Exit.png">
+        <p class="p"><i class="fa fa-home" aria-hidden="true"></i> Main Menu</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="slight-loss-box" class="final-box">
+    <p>You Lose The Game</p>
+    <div style="display:flex">
+      <div style="display:grid;justify-items: center;" routerLink="" (click)="gEnd()">
+        <img class="select-option" src="./assets/Exit.png">
+        <p class="p"><i class="fa fa-home" aria-hidden="true"></i> Main Menu</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="total-win-box" class="final-box">
+    <!--<img src="./assets/Win_Message.png" alt="">-->
+    <p class="win-msg" *ngIf="Level<2"> WANNA PLAY NEXT LEVEl</p>
+    <p class="win-msg" *ngIf="Level==2"> Congrats on completing the campaign</p>
+    <div style="display:flex">
+      <div style="display:grid;justify-items: center;" routerLink="" *ngIf="Level<2" (click)="gEnd()">
+        <img class="select-option" src="./assets/Exit.png">
+        <p class="p"><i class="fa fa-home" aria-hidden="true"></i> Main Menu</p>
+      </div>
+      <!--  <div style="display:grid;justify-items: center;" (click)="claim();"  *ngIf="Level==2">
+          <img class="select-option" src="./assets/Exit.png">
+          <p class="p" >Claim <span style="margin-left:10%">1000<img style="width:20%" src="./assets/images/Home/Coin.png"></span> </p>
+        </div>-->
+      <div style="display:grid;justify-items: center;" (click)="routFunc();gEnd()" *ngIf="Level==2">
+        <img class="select-option" src="./assets/Exit.png">
+        <p class="p">2X Claim <span>2000<img style="width:15%" src="./assets/images/Home/Coin.png"></span> </p>
+      </div>
+      <div style="display:grid;justify-items: center;" routerLink="/Camp" (click)="rwrd() " *ngIf="Level<2">
+        <img class="select-option" src="./assets/Next.png">
+        <p class="p">Next Mission</p>
+      </div>
+      <!--    <div style="display:grid;justify-items: center" routerLink="/LB"  >
+        <img class="select-option" src="./assets/leaderboard-btn.png">
+       
+      </div>-->
+    </div>
+    <!--<img (click)="goToUrl()" class="select-option" src="./assets/facebookplay.png" >-->
+  </div>
+
+</div>

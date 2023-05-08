@@ -1,0 +1,32 @@
+.cricket-victory-op-bg{
+	position: relative;
+    top: -100%;
+    background-image: url(../images/youwin/Victory.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 30%;
+    height: 100vh;
+    margin: 0 auto;
+    z-index: 999999;
+}
+.cricket-victory-effect{
+	position: relative;
+	/*top: -42px;*/
+}
+.cricket-victory-banner{
+    width: 80%;
+    margin: 0 10%;
+    position: absolute;
+    top: 20%;
+}
+.cricket-victory-winning-shot{
+	position: relative;
+    top: -10%;
+}
+.cricket-victory-losing-run{
+	top: 33%;
+}
+.cricket-match-draw{
+	width: 65%;
+	margin: 0 auto;
+}

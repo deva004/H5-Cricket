@@ -1,0 +1,382 @@
+.grand-vin-first-page {
+  display: none;
+}
+
+.cricket-vs-background {
+  background-image: url("../images/VS/background.jpg");
+  /*width: 30%;*/
+  /*position: fixed;*/
+  /*z-index: 99999;*/
+  /*margin: 0 auto;*/
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  /*height: 50px;*/
+}
+
+.cricket-vs-back-focus {
+  background-image: url("../images/VS/back-vs1.png");
+  /*width: 30%;*/
+  /*position: fixed;*/
+  /*z-index: 99999;*/
+  /*margin: 0 auto;*/
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 99vh;
+  width: 98%;
+  margin: auto;
+  padding: 117px 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.cricket-user-one {
+  /* width: 30%;
+  padding: 25% 0 0 4%; */
+  align-self: flex-start;
+}
+
+.cricket-user-one-name p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.cricket-user-icon {
+  width: 120px;
+}
+
+/*************************/
+#spinner-one {
+  -webkit-animation-name: spinner-one;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+
+  animation-name: spinner-one;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+@-webkit-keyframes spinner-one {
+  from {
+    -webkit-transform: rotateY(0deg);
+  }
+
+  to {
+    -webkit-transform: rotateY(-360deg);
+  }
+}
+
+/* all other browsers */
+@keyframes spinner-one {
+  from {
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+
+  to {
+    -moz-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    transform: rotateY(-360deg);
+  }
+}
+
+.cricket-user-two {
+  /* width: 30%;
+  float: right;
+  padding: 0% 4% 0 0%; */
+  align-self: flex-end;
+}
+
+#spinner-two,.spinner-circle {
+  -webkit-animation-name: spinner-two;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+
+  animation-name: spinner-two;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+@-webkit-keyframes spinner-two {
+  from {
+    -webkit-transform: rotateY(0deg);
+  }
+
+  to {
+    -webkit-transform: rotateY(-360deg);
+  }
+}
+
+/* all other browsers */
+@keyframes spinner-two {
+  from {
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+
+  to {
+    -moz-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    transform: rotateY(-360deg);
+  }
+}
+
+.cricket-vs-effect-image {
+  width: 40%;
+  background-image: url(../images/VS/vs-effect.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 180px;
+  margin: 0 auto;
+  overflow: hidden;
+  flex: 1;
+}
+
+/*************************************************/
+.zoominheader {
+  /*width:400px;*/
+  /*height:200px;*/
+  /*text-align:center;*/
+  /*background: url("https://2.bp.blogspot.com/-jV7dJqJnzAQ/V1tLFVCPw_I/AAAAAAAAJhk/EH40vG3VTZ4t7gn38pHKA0nW9RyI84OZwCK4B/s400-p/sts-min.jpg");*/
+  /*background-size: auto;*/
+  /*background-attachment: fixed;*/
+  /*background-repeat: no-repeat;*/
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-animation: zoomin 1s ease-in infinite;
+  animation: zoomin 1s ease-in infinite;
+  transition: all .5s ease-in-out;
+  overflow: hidden;
+}
+
+/* The innermost element*/
+.zoomoutheader {
+  /*width:400px;*/
+  /*height:200px;*/
+  /*text-align:center;*/
+  background: none;
+  -webkit-animation: zoomout 10s ease-in infinite;
+  animation: zoomout 10s ease-in infinite;
+  transition: all .5s ease-in-out;
+  overflow: hidden;
+}
+
+
+
+/* Zoom in Keyframes */
+@-webkit-keyframes zoomin {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes zoomin {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*End of Zoom in Keyframes */
+
+/* Zoom out Keyframes */
+@-webkit-keyframes zoomout {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.67);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes zoomout {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.67);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*End of Zoom out Keyframes */
+
+.cricket-vs-effect-image h2 {
+  text-align: center;
+  /*color: #fff;*/
+  line-height: 140px;
+  font-size: 60px;
+  font-weight: 700;
+  font-style: italic;
+  -webkit-text-stroke: 0.5px black;
+  padding: 0 30px 0 0;
+  background: linear-gradient(#e18a26 0%, #d66f23 25%, #c43520 50%, #bd1d23 75%, #bc1d22 100%);
+  background: -webkit-linear-gradient(#e18a26 0%, #d66f23 25%, #c43520 50%, #bd1d23 75%, #bc1d22 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /*-webkit-animation-delay: 20s; */
+  /*animation-delay: 20s;*/
+}
+
+
+.animate {
+  -webkit-animation: NAME-YOUR-ANIMATION 10s;
+  -moz-animation: NAME-YOUR-ANIMATION 10s;
+  -o-animation: NAME-YOUR-ANIMATION 10s;
+  animation: NAME-YOUR-ANIMATION 10s;
+  opacity: 0;
+}
+
+@keyframes NAME-YOUR-ANIMATION {
+  0% {
+    opacity: 0;
+  }
+
+  49% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  99% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes NAME-YOUR-ANIMATION {
+  0% {
+    opacity: 0;
+  }
+
+  49% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  99% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes NAME-YOUR-ANIMATION {
+  0% {
+    opacity: 0;
+  }
+
+  49% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  99% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes NAME-YOUR-ANIMATION {
+  0% {
+    opacity: 0;
+  }
+
+  49% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  99% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes NAME-YOUR-ANIMATION {
+  0% {
+    opacity: 0;
+  }
+
+  49% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  99% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

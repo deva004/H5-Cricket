@@ -1,0 +1,136 @@
+<div class="container">
+  <div class="content">
+    <div class="back" routerLink="/">
+      <a href="#" class="backbtn">&laquo; BACK</a>
+    </div>
+    <div class="title">
+      <img src="./assets/desk/TitleBox.png">
+      <p>CAMPAIGN MAP</p>
+    </div>
+    <div class="map">
+      <div class="div1">
+        <div class="l1">
+          <div class="active" *ngIf="(activeid==1 && (Level==0 || Level==null) )">
+            <img class="campain-img" src="./assets/campaign/Campaign_CurrentStage.png">
+            <div class="Play" (click)="gamePlay()">
+              <img src="./assets/campaign/play.png">
+              <p>PLAY</p>
+            </div>
+            <!--   <div class="stars">
+              <img  src="./assets/campaign/Difficulty_Star2.png" >
+              <img  src="./assets/campaign/Difficulty_Star2.png" >
+              <img  src="./assets/campaign/Difficulty_Star2.png" >
+            </div>-->
+          </div>
+          <div (click)="Active(1)" *ngIf="(activeid!=1 && (Level==0 || Level==null) )">
+            <img class="campain-img" src="./assets/campaign/Campaign_FutureStages.png">
+          </div>
+          <div *ngIf="Level>0">
+            <img class="campain-img" src="./assets/campaign/Campaign_StageComplete.png">
+          </div>
+        </div>
+        <div class="dot">
+          <p>.......</p>
+        </div>
+
+        <div class="l2">
+          <div class="active" *ngIf="(activeid==2 && Level<=1  )">
+            <img class="campain-img" src="./assets/campaign/Campaign_CurrentStage.png">
+            <div class="Play" (click)="gamePlay()">
+              <img src="./assets/campaign/play.png">
+              <p>PLAY</p>
+            </div>
+            <!--   <div class="stars">
+              <img  src="./assets/campaign/Difficulty_Star2.png" >
+              <img  src="./assets/campaign/Difficulty_Star2.png" >
+              <img  src="./assets/campaign/Difficulty_Star2.png" >
+            </div>-->
+          </div>
+          <div [ngClass]="{'op5':Level<1, 'deck-bowling-img1': Level==2}" (click)="Active(2);openAlert(1)"
+            *ngIf="(activeid!=2 && Level<=1  )">
+            <img class="campain-img" src="./assets/campaign/Campaign_FutureStages.png">
+          </div>
+          <div *ngIf="Level>1">
+            <img class="campain-img" src="./assets/campaign/Campaign_StageComplete.png">
+          </div>
+        </div>
+
+        <div class="dot">
+          <p>.......</p>
+        </div>
+
+        <div class="l3">
+          <div class="active" *ngIf="(activeid==3 && Level<=2  )">
+            <img class="campain-img" src="./assets/campaign/Campaign_CurrentStage.png">
+            <div class="Play" (click)="gamePlay()">
+              <img src="./assets/campaign/play.png">
+              <p>PLAY</p>
+            </div>
+            <!--   <div class="stars">
+              <img  src="./assets/campaign/Difficulty_Star2.png" >
+              <img  src="./assets/campaign/Difficulty_Star2.png" >
+              <img  src="./assets/campaign/Difficulty_Star2.png" >
+            </div>-->
+          </div>
+          <div [ngClass]="{'op5':Level<2, 'deck-bowling-img1': Level==3}" (click)="Active(3);openAlert(2)"
+            *ngIf="(activeid!=3 && Level<=2  )">
+            <img class="campain-img" src="./assets/campaign/Campaign_FutureStages.png">
+          </div>
+          <div *ngIf="activeid==10">
+            <img class="campain-img" src="./assets/campaign/Campaign_StageComplete.png">
+          </div>
+        </div>
+      </div>
+      <div class="div2">
+        <div class="reward">
+          <img src="./assets/campaign/Reward_Title.jpg">
+          <p>REWARD</p>
+        </div>
+        <div class="Reward_Box">
+          <img style="width:22%" src="./assets/campaign/Reward_RearHighlight.png">
+          <img src="./assets/desk/Coin_Chest.png">
+          <p>1000 Coins</p>
+        </div>
+        <div style="height:12%;margin-top:0%" class="reward">
+          <img src="./assets/campaign/Timer_Box.jpg">
+          <p style="    width: 17%;
+            font-size: calc(.8*(1.1vh + 1.5vw));">Complete Campaign To Claim</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="alert" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="alert">
+          <p> Finish earlier campaign to unlock this</p>
+          <div class="btn-div">
+            <button class="btn btn-warning" data-bs-dismiss="modal" aria-label="Close"> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="campaign1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="alert">
+          <p> You Dont Have Enough Coins , Watch An AD To Play</p>
+          <div class="btn-div">
+            <button class="btn btn-primary" routerLink="/gp-Camp" data-bs-dismiss="modal" aria-label="Close"> Watch
+              Ad</button>
+            <button class="btn btn-warning" data-bs-dismiss="modal" aria-label="Close"> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

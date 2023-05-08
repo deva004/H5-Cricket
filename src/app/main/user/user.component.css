@@ -1,0 +1,135 @@
+.container {
+  min-width: 100vw;
+  height: 100vh;
+  background-image: url(../../../assets/images/Home/HomeScreen_NewLockedStates/NewBG.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.content {
+  height: 70vh;
+  top: 5vh;
+  width: 30%;
+  left: 35%;
+  position: absolute;
+  background-image: url(../../../assets/score/popup-frame.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.input-div {
+  width: 30vw;
+  height: fit-content;
+  top: 30%;
+  justify-self: center;
+  position: absolute;
+}
+
+.input1 {
+  width: 100%;
+  height: 9vh;
+  display: grid;
+  margin-bottom: 5%;
+}
+
+.input {
+
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  position: fixed;
+  height: 6vh;
+  width: 25vw;
+  background: none;
+  border: none;
+  color: white;
+  outline: none;
+  text-align: center;
+  font-family: Prometo-Bold;
+  font-size: calc(1.2*(1.5vw));
+}
+
+.text {
+  color: #fff;
+  font-size: calc(1*(1.1vh + 1.5vw));
+  margin-left: 12.5%;
+  font-family: Prometo-Italic
+}
+
+.btn {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 20%;
+  height: 45%;
+  font-family: Prometo-Bold;
+  font-size: larger;
+}
+
+.gallery {
+  width: 98%;
+  height: 51%;
+  margin: 6% 6% 0% 1%;
+  position: absolute;
+  bottom: 2%;
+  background: #171E2E 0% 0% no-repeat padding-box;
+  padding: 5%
+}
+
+.gallery img {
+  width: 21%;
+  height: 38%;
+  margin: 2%;
+
+}
+
+.d-img {
+  display: grid;
+  margin-top: 20%;
+}
+
+.main-img {
+  width: 30%;
+  justify-self: center;
+}
+
+.conform {
+  bottom: -1%;
+  width: 60%;
+  display: flex;
+  position: absolute;
+  z-index: 100;
+  margin-left: 20%;
+}
+
+.conform img {
+  width: 100%
+}
+
+.conform p {
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 2%;
+  font-family: Prometo-Bold;
+  font-size: calc(.8*(1.1vh + 1.5vw));
+}
+
+.Profile {
+  top: 2%;
+  width: 80%;
+  display: flex;
+  position: absolute;
+  margin-left: 10%;
+  height: 6vh
+}
+
+.Profile img {
+  width: 100%
+}
+
+.Profile p {
+  position: absolute;
+  margin-left: 22%;
+  margin-top: 2%;
+  font-family: Prometo-Bold;
+  font-size: calc(.8*(1.1vh + 1.5vw));
+}

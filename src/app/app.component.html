@@ -1,0 +1,17 @@
+<!--<div  *ngIf="!device && popup">
+    <div class="landscape" >
+         <p>Kindy click the button to play in Landscape mode</p>
+         <button type="button" class="btn btn-warning"(click)="toggleFullScreen();landscape()">OK</button>
+        </div>    
+    </div>-->
+   
+   <!-- <div class="main-rout" *ngIf="!device"  >
+        <div class="main-rout1" *ngIf="!popup">
+            <router-outlet ></router-outlet>
+        </div>
+    </div>
+ <router-outlet *ngIf="device" ></router-outlet>-->
+
+    <router-outlet *ngIf="Loadcompleted" ></router-outlet>
+
+
